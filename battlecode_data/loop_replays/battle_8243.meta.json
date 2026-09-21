@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 417,
+  "submissionAId": 573,
+  "submissionBId": 537,
+  "mapId": 11,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "d776ba52-d72c-4054-87c6-968f0a7386e4",
+  "mapName": "Trophy",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Matcha Latte",
+  "match_id": 8243,
+  "group_id": "series:d776ba52-d72c-4054-87c6-968f0a7386e4",
+  "sha256": "45de24e4f02724c8b53d31bba87ece07876d9834adfad20220199aef9038e849",
+  "source_url": "https://game.battlecode.au/visualiser?match=8243",
+  "validated": true
+}

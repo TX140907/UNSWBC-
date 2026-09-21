@@ -1,0 +1,38 @@
+{
+  "id": 5712,
+  "teamAId": 400,
+  "teamBId": 128,
+  "submissionAId": 142,
+  "submissionBId": 372,
+  "mapId": 3,
+  "ranked": true,
+  "status": "completed",
+  "winner": "a",
+  "seriesId": "8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+  "mapName": "Big Empty",
+  "teamAName": "All Roads Lead to Makuhari",
+  "teamBName": "An IQ too high?",
+  "match_id": 5712,
+  "group_id": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+  "source_url": "https://game.battlecode.au/visualiser?match=5712",
+  "completed_utc": "2026-09-21T09:32:19.280000+00:00",
+  "sha256": "7bd95b9956b2730424d9d6088db9e228acbf05fec8d29ca28dbba09ab56c3b73",
+  "downloaded_utc": "2026-09-21T10:10:31.838012+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "A",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 64,
+      "longest_dragon": 19,
+      "total_length": 436
+    },
+    "B": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    }
+  }
+}

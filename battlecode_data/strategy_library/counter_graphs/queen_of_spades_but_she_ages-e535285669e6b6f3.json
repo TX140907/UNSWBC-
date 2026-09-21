@@ -1,0 +1,22 @@
+{
+  "map": "queen_of_spades_but_she_ages",
+  "map_sha": "fb60dad47e5a991bc28669e05da4f0bf416412d37c7141afed58cf19ac853aa5",
+  "phase": "whole-game",
+  "nodes": [
+    "b19f5b6828753d44cbd0f47f898f611edf02554ac77f68f284631a316bd3d376",
+    "e4c1c161b4457f8c87ef2943530e21aeca2fb166453d48840d82dfc0c5ad5a0d"
+  ],
+  "edges": [
+    {
+      "source": "e4c1c161b4457f8c87ef2943530e21aeca2fb166453d48840d82dfc0c5ad5a0d",
+      "target": "b19f5b6828753d44cbd0f47f898f611edf02554ac77f68f284631a316bd3d376",
+      "score": 1.0,
+      "weight": 1.0,
+      "games": 2,
+      "both_sides": true,
+      "relation": "observed_advantage",
+      "runtime_enabled": false,
+      "warning": "Descriptive direct matchup; not a proven counter or a phase-conditioned policy."
+    }
+  ]
+}

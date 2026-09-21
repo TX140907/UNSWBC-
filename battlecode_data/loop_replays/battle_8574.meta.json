@@ -1,0 +1,18 @@
+{
+  "teamAId": 280,
+  "teamBId": 128,
+  "submissionAId": 559,
+  "submissionBId": 573,
+  "mapId": 1,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "59768bd7-c267-4e28-a473-51f55c0cd84c",
+  "mapName": "Colosseum",
+  "teamAName": "SHINK AI 6500",
+  "teamBName": "An IQ too high?",
+  "match_id": 8574,
+  "group_id": "series:59768bd7-c267-4e28-a473-51f55c0cd84c",
+  "sha256": "cf1525313af7b936dc3a25da1b0119d26548b4bbc8218e55519e0c50b91950e2",
+  "source_url": "https://game.battlecode.au/visualiser?match=8574",
+  "validated": true
+}

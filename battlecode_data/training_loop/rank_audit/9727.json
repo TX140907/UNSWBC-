@@ -1,0 +1,62 @@
+{
+  "match": {
+    "id": 9727,
+    "teamAId": 332,
+    "teamBId": 128,
+    "submissionAId": 383,
+    "submissionBId": 649,
+    "mapId": 5,
+    "ranked": true,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 57,
+    "scoresB": 58,
+    "replayKey": "replays/9727.replay",
+    "requestedBy": "djPTWPV0s7usqfkTZ2GNWUmDKjsUb2zX",
+    "seriesId": "ec18d892-408b-409c-9a93-edd67b94b3ad",
+    "eloChangeA": 7,
+    "eloChangeB": -7,
+    "requestedAt": "2026-09-21T12:45:39.932Z",
+    "startedAt": "2026-09-21T12:45:40.888Z",
+    "completedAt": "2026-09-21T12:46:01.333Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:45:59.300Z",
+    "claimedBy": "8b9001c90610",
+    "log": null
+  },
+  "mapName": "Default Small",
+  "teamAName": "Kabyle Warriors",
+  "teamBName": "An IQ too high?",
+  "teamAElo": 1533,
+  "teamBElo": 1644,
+  "games": [
+    {
+      "id": 9727,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 9728,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 9729,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 9730,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 9731,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

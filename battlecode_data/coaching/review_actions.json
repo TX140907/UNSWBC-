@@ -1,0 +1,1906 @@
+[
+  {
+    "match": 6246,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Default",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 4,
+    "round": 241,
+    "seq": 9132,
+    "length": 48,
+    "context": [
+      "32x32",
+      "open",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 2729,
+      "mean": 83.38002784902895,
+      "groups": 13
+    }
+  },
+  {
+    "match": 6246,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Default",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 4,
+    "round": 248,
+    "seq": 9479,
+    "length": 48,
+    "context": [
+      "32x32",
+      "open",
+      "middle",
+      "8+",
+      "few",
+      "quiet",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 6689,
+      "mean": 86.56775108386908,
+      "groups": 13
+    }
+  },
+  {
+    "match": 6246,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Default",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 4,
+    "round": 244,
+    "seq": 9282,
+    "length": 48,
+    "context": [
+      "32x32",
+      "open",
+      "middle",
+      "8+",
+      "medium",
+      "quiet",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 6689,
+      "mean": 86.56775108386908,
+      "groups": 13
+    }
+  },
+  {
+    "match": 6244,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Queen Of Spades",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 16,
+    "round": 466,
+    "seq": 16837,
+    "length": 35,
+    "context": [
+      "25x35",
+      "open",
+      "late",
+      "8+",
+      "medium",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 106,
+      "mean": 81.72169811320755,
+      "groups": 8
+    }
+  },
+  {
+    "match": 6244,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Queen Of Spades",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 16,
+    "round": 458,
+    "seq": 16197,
+    "length": 35,
+    "context": [
+      "25x35",
+      "open",
+      "late",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "N"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 635,
+      "mean": 83.68717637795277,
+      "groups": 9
+    }
+  },
+  {
+    "match": 6244,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Queen Of Spades",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 16,
+    "round": 460,
+    "seq": 16360,
+    "length": 35,
+    "context": [
+      "25x35",
+      "open",
+      "late",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 635,
+      "mean": 83.68717637795277,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5586,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Big Empty",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 3,
+    "round": 95,
+    "seq": 17544,
+    "length": 30,
+    "context": [
+      "64x64",
+      "open",
+      "early",
+      "8+",
+      "few",
+      "quiet",
+      "move-food"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "N"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 1176,
+      "mean": 92.41224489795917,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5584,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Schooltime",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 102,
+    "round": 184,
+    "seq": 19401,
+    "length": 20,
+    "context": [
+      "60x40",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 1416,
+      "mean": 81.85625847457628,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5584,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Schooltime",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 102,
+    "round": 186,
+    "seq": 19869,
+    "length": 20,
+    "context": [
+      "60x40",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 721,
+      "mean": 78.1496907073509,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5584,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Schooltime",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 98,
+    "round": 179,
+    "seq": 18269,
+    "length": 20,
+    "context": [
+      "60x40",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "quiet",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 496,
+      "mean": 88.06059274193551,
+      "groups": 4
+    }
+  },
+  {
+    "match": 5711,
+    "group": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+    "map": "Queen Of Spades",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 26,
+    "round": 292,
+    "seq": 12962,
+    "length": 20,
+    "context": [
+      "25x35",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 31,
+      "mean": 87.98387096774194,
+      "groups": 3
+    }
+  },
+  {
+    "match": 5711,
+    "group": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+    "map": "Queen Of Spades",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 26,
+    "round": 291,
+    "seq": 12875,
+    "length": 20,
+    "context": [
+      "25x35",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 31,
+      "mean": 87.98387096774194,
+      "groups": 3
+    }
+  },
+  {
+    "match": 5586,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Big Empty",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 1,
+    "round": 73,
+    "seq": 12765,
+    "length": 19,
+    "context": [
+      "64x64",
+      "open",
+      "early",
+      "8+",
+      "few",
+      "quiet",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 6860,
+      "mean": 86.89755583090377,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5910,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Queen Of Spades",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 81,
+    "round": 256,
+    "seq": 10717,
+    "length": 19,
+    "context": [
+      "25x35",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 31,
+      "mean": 87.98387096774194,
+      "groups": 3
+    }
+  },
+  {
+    "match": 5910,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Queen Of Spades",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 81,
+    "round": 258,
+    "seq": 10832,
+    "length": 19,
+    "context": [
+      "25x35",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 31,
+      "mean": 87.98387096774194,
+      "groups": 3
+    }
+  },
+  {
+    "match": 5910,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Queen Of Spades",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 81,
+    "round": 257,
+    "seq": 10777,
+    "length": 19,
+    "context": [
+      "25x35",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 31,
+      "mean": 87.98387096774194,
+      "groups": 3
+    }
+  },
+  {
+    "match": 5586,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Big Empty",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 1,
+    "round": 70,
+    "seq": 12125,
+    "length": 17,
+    "context": [
+      "64x64",
+      "open",
+      "early",
+      "8+",
+      "few",
+      "quiet",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 6860,
+      "mean": 86.89755583090377,
+      "groups": 9
+    }
+  },
+  {
+    "match": 6247,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Schooltime",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 241,
+    "round": 413,
+    "seq": 77638,
+    "length": 14,
+    "context": [
+      "60x40",
+      "walls",
+      "late",
+      "8+",
+      "many",
+      "contact",
+      "move-food"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 103,
+      "mean": 74.42771844660193,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5810,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Schooltime",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 2,
+    "round": 109,
+    "seq": 8852,
+    "length": 12,
+    "context": [
+      "60x40",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "N"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 1416,
+      "mean": 81.85625847457628,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5810,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Schooltime",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 2,
+    "round": 112,
+    "seq": 9435,
+    "length": 12,
+    "context": [
+      "60x40",
+      "open",
+      "middle",
+      "8+",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "N"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 39,
+      "mean": 93.3974358974359,
+      "groups": 4
+    }
+  },
+  {
+    "match": 6247,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Schooltime",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 443,
+    "round": 488,
+    "seq": 105413,
+    "length": 11,
+    "context": [
+      "60x40",
+      "open",
+      "late",
+      "8+",
+      "many",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 562,
+      "mean": 85.1963665480427,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5907,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Schooltime",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 156,
+    "round": 133,
+    "seq": 13976,
+    "length": 10,
+    "context": [
+      "60x40",
+      "open",
+      "middle",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 562,
+      "mean": 85.1963665480427,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5907,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Schooltime",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 156,
+    "round": 129,
+    "seq": 13217,
+    "length": 10,
+    "context": [
+      "60x40",
+      "open",
+      "middle",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 562,
+      "mean": 85.1963665480427,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5907,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Schooltime",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 3,
+    "round": 155,
+    "seq": 18418,
+    "length": 10,
+    "context": [
+      "60x40",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "N"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 721,
+      "mean": 78.1496907073509,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5711,
+    "group": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+    "map": "Queen Of Spades",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 1,
+    "round": 169,
+    "seq": 5029,
+    "length": 9,
+    "context": [
+      "25x35",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "quiet",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 427,
+      "mean": 90.25794613583139,
+      "groups": 4
+    }
+  },
+  {
+    "match": 5809,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Default",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 27,
+    "round": 133,
+    "seq": 9703,
+    "length": 8,
+    "context": [
+      "32x32",
+      "open",
+      "middle",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 36,
+      "mean": 90.34722222222223,
+      "groups": 3
+    }
+  },
+  {
+    "match": 5809,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Default",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 2,
+    "round": 121,
+    "seq": 8677,
+    "length": 8,
+    "context": [
+      "32x32",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "many-enemies",
+      "split-large"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 6
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": null
+  },
+  {
+    "match": 5809,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Default",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 27,
+    "round": 134,
+    "seq": 9786,
+    "length": 8,
+    "context": [
+      "32x32",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 708,
+      "mean": 79.45399576271186,
+      "groups": 13
+    }
+  },
+  {
+    "match": 5810,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Schooltime",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 4,
+    "round": 114,
+    "seq": 9832,
+    "length": 8,
+    "context": [
+      "60x40",
+      "walls",
+      "middle",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 721,
+      "mean": 78.1496907073509,
+      "groups": 9
+    }
+  },
+  {
+    "match": 6243,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Colosseum",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 72,
+    "round": 143,
+    "seq": 12973,
+    "length": 8,
+    "context": [
+      "16x16",
+      "open",
+      "middle",
+      "8+",
+      "many",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 3282,
+      "mean": 75.60849817184643,
+      "groups": 15
+    }
+  },
+  {
+    "match": 6243,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Colosseum",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 72,
+    "round": 145,
+    "seq": 13192,
+    "length": 8,
+    "context": [
+      "16x16",
+      "open",
+      "middle",
+      "8+",
+      "many",
+      "contact",
+      "move-portal"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": null
+  },
+  {
+    "match": 6243,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Colosseum",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 72,
+    "round": 141,
+    "seq": 12756,
+    "length": 7,
+    "context": [
+      "16x16",
+      "open",
+      "middle",
+      "4-7",
+      "many",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 2514,
+      "mean": 71.44428997613366,
+      "groups": 15
+    }
+  },
+  {
+    "match": 5588,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Colosseum",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 73,
+    "round": 111,
+    "seq": 8296,
+    "length": 6,
+    "context": [
+      "16x16",
+      "open",
+      "middle",
+      "4-7",
+      "many",
+      "quiet",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 148,
+      "mean": 77.73166216216217,
+      "groups": 3
+    }
+  },
+  {
+    "match": 5909,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Default Small",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 55,
+    "round": 168,
+    "seq": 12492,
+    "length": 6,
+    "context": [
+      "16x16",
+      "walls",
+      "middle",
+      "4-7",
+      "many",
+      "many-enemies",
+      "move-food"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 124,
+      "mean": 68.20967741935483,
+      "groups": 8
+    }
+  },
+  {
+    "match": 5909,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Default Small",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 55,
+    "round": 167,
+    "seq": 12376,
+    "length": 6,
+    "context": [
+      "16x16",
+      "walls",
+      "middle",
+      "4-7",
+      "many",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 2017,
+      "mean": 77.40064005949431,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5588,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Colosseum",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 47,
+    "round": 93,
+    "seq": 6285,
+    "length": 5,
+    "context": [
+      "16x16",
+      "open",
+      "early",
+      "4-7",
+      "many",
+      "quiet",
+      "move-portal"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 40,
+      "mean": 45.875,
+      "groups": 6
+    }
+  },
+  {
+    "match": 5588,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Colosseum",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 77,
+    "round": 118,
+    "seq": 9098,
+    "length": 5,
+    "context": [
+      "16x16",
+      "open",
+      "middle",
+      "4-7",
+      "many",
+      "contact",
+      "move-portal"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": null
+  },
+  {
+    "match": 5909,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Default Small",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 72,
+    "round": 170,
+    "seq": 12772,
+    "length": 5,
+    "context": [
+      "16x16",
+      "walls",
+      "middle",
+      "4-7",
+      "many",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 2017,
+      "mean": 77.40064005949431,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5585,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Trophy",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 1,
+    "round": 72,
+    "seq": 3451,
+    "length": 4,
+    "context": [
+      "25x25",
+      "open",
+      "early",
+      "4-7",
+      "few",
+      "contact",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 2339,
+      "mean": 81.29348653270628,
+      "groups": 11
+    }
+  },
+  {
+    "match": 5587,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Arena",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 15,
+    "round": 25,
+    "seq": 807,
+    "length": 4,
+    "context": [
+      "11x11",
+      "open",
+      "early",
+      "4-7",
+      "few",
+      "contact",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 228,
+      "mean": 69.09492543859649,
+      "groups": 12
+    }
+  },
+  {
+    "match": 5587,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Arena",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 27,
+    "round": 34,
+    "seq": 1186,
+    "length": 4,
+    "context": [
+      "11x11",
+      "open",
+      "early",
+      "4-7",
+      "medium",
+      "contact",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 95,
+      "mean": 67.0766947368421,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5587,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Arena",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 20,
+    "round": 35,
+    "seq": 1225,
+    "length": 4,
+    "context": [
+      "11x11",
+      "open",
+      "early",
+      "4-7",
+      "medium",
+      "contact",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 95,
+      "mean": 67.0766947368421,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5808,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Colosseum",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 58,
+    "round": 127,
+    "seq": 12056,
+    "length": 4,
+    "context": [
+      "16x16",
+      "open",
+      "middle",
+      "4-7",
+      "medium",
+      "many-enemies",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 67,
+      "mean": 70.88059701492537,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5808,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Colosseum",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 23,
+    "round": 121,
+    "seq": 11369,
+    "length": 4,
+    "context": [
+      "16x16",
+      "open",
+      "middle",
+      "4-7",
+      "medium",
+      "many-enemies",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 67,
+      "mean": 70.88059701492537,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5811,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Trophy",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 2,
+    "round": 109,
+    "seq": 8049,
+    "length": 4,
+    "context": [
+      "25x25",
+      "open",
+      "middle",
+      "4-7",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 48,
+      "mean": 89.94791666666667,
+      "groups": 4
+    }
+  },
+  {
+    "match": 5908,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Arena",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 273,
+    "round": 149,
+    "seq": 12715,
+    "length": 4,
+    "context": [
+      "11x11",
+      "walls",
+      "middle",
+      "4-7",
+      "medium",
+      "contact",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 89,
+      "mean": 61.37306741573033,
+      "groups": 12
+    }
+  },
+  {
+    "match": 5908,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Arena",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 215,
+    "round": 116,
+    "seq": 9724,
+    "length": 4,
+    "context": [
+      "11x11",
+      "open",
+      "middle",
+      "4-7",
+      "medium",
+      "many-enemies",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 70,
+      "mean": 58.5949,
+      "groups": 5
+    }
+  },
+  {
+    "match": 5908,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Arena",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 212,
+    "round": 111,
+    "seq": 9234,
+    "length": 4,
+    "context": [
+      "11x11",
+      "open",
+      "middle",
+      "4-7",
+      "medium",
+      "many-enemies",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 70,
+      "mean": 58.5949,
+      "groups": 5
+    }
+  },
+  {
+    "match": 6245,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Arena",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 159,
+    "round": 89,
+    "seq": 7366,
+    "length": 4,
+    "context": [
+      "11x11",
+      "open",
+      "early",
+      "4-7",
+      "medium",
+      "many-enemies",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 192,
+      "mean": 61.73734375,
+      "groups": 11
+    }
+  },
+  {
+    "match": 6245,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Arena",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 177,
+    "round": 101,
+    "seq": 8529,
+    "length": 4,
+    "context": [
+      "11x11",
+      "open",
+      "middle",
+      "4-7",
+      "medium",
+      "quiet",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 36,
+      "mean": 61.708333333333336,
+      "groups": 6
+    }
+  },
+  {
+    "match": 6245,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Arena",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 0,
+    "round": 25,
+    "seq": 974,
+    "length": 4,
+    "context": [
+      "11x11",
+      "open",
+      "early",
+      "4-7",
+      "medium",
+      "contact",
+      "split-2"
+    ],
+    "action": {
+      "kind": "split",
+      "child_length": 2
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 95,
+      "mean": 67.0766947368421,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5808,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Colosseum",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 106,
+    "round": 130,
+    "seq": 12397,
+    "length": 3,
+    "context": [
+      "16x16",
+      "open",
+      "middle",
+      "2-3",
+      "medium",
+      "many-enemies",
+      "move-food"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 175,
+      "mean": 70.2,
+      "groups": 11
+    }
+  },
+  {
+    "match": 6247,
+    "group": "series:a8142634-010e-4899-8234-97c0fbf56063",
+    "map": "Schooltime",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 346,
+    "round": 428,
+    "seq": 83149,
+    "length": 3,
+    "context": [
+      "60x40",
+      "walls",
+      "late",
+      "2-3",
+      "many",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "W"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": {
+      "n": 273,
+      "mean": 80.37545787545787,
+      "groups": 5
+    }
+  },
+  {
+    "match": 5911,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Big Empty",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 147,
+    "round": 408,
+    "seq": 88972,
+    "length": 2,
+    "context": [
+      "64x64",
+      "open",
+      "late",
+      "2-3",
+      "medium",
+      "many-enemies",
+      "move-occupied"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "N"
+    },
+    "score": 0.0,
+    "alive10": false,
+    "longest10": 0,
+    "estimated": null
+  },
+  {
+    "match": 5811,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Trophy",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 0,
+    "round": 94,
+    "seq": 6243,
+    "length": 11,
+    "context": [
+      "25x25",
+      "walls",
+      "early",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 65.455,
+    "alive10": true,
+    "longest10": 2,
+    "estimated": {
+      "n": 398,
+      "mean": 72.0,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5811,
+    "group": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+    "map": "Trophy",
+    "team": "A",
+    "name": "An IQ too high?",
+    "id": 0,
+    "round": 96,
+    "seq": 6473,
+    "length": 11,
+    "context": [
+      "25x25",
+      "walls",
+      "early",
+      "8+",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 68.182,
+    "alive10": true,
+    "longest10": 3,
+    "estimated": {
+      "n": 398,
+      "mean": 72.0,
+      "groups": 10
+    }
+  },
+  {
+    "match": 5911,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Big Empty",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 169,
+    "round": 462,
+    "seq": 102318,
+    "length": 18,
+    "context": [
+      "64x64",
+      "open",
+      "late",
+      "8+",
+      "medium",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 86.667,
+    "alive10": true,
+    "longest10": 16,
+    "estimated": {
+      "n": 1408,
+      "mean": 77.64960227272728,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5911,
+    "group": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+    "map": "Big Empty",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 71,
+    "round": 430,
+    "seq": 94201,
+    "length": 20,
+    "context": [
+      "64x64",
+      "open",
+      "late",
+      "8+",
+      "medium",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 87.0,
+    "alive10": true,
+    "longest10": 18,
+    "estimated": {
+      "n": 1408,
+      "mean": 77.64960227272728,
+      "groups": 9
+    }
+  },
+  {
+    "match": 5585,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Trophy",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 3,
+    "round": 176,
+    "seq": 18701,
+    "length": 6,
+    "context": [
+      "25x25",
+      "open",
+      "middle",
+      "4-7",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "S"
+    },
+    "score": 90.0,
+    "alive10": true,
+    "longest10": 6,
+    "estimated": {
+      "n": 48,
+      "mean": 89.94791666666667,
+      "groups": 4
+    }
+  },
+  {
+    "match": 5585,
+    "group": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+    "map": "Trophy",
+    "team": "B",
+    "name": "An IQ too high?",
+    "id": 3,
+    "round": 191,
+    "seq": 21702,
+    "length": 6,
+    "context": [
+      "25x25",
+      "open",
+      "middle",
+      "4-7",
+      "few",
+      "many-enemies",
+      "move"
+    ],
+    "action": {
+      "kind": "move",
+      "steps": "E"
+    },
+    "score": 90.0,
+    "alive10": true,
+    "longest10": 6,
+    "estimated": {
+      "n": 48,
+      "mean": 89.94791666666667,
+      "groups": 4
+    }
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "match": {
+    "id": 8479,
+    "teamAId": 128,
+    "teamBId": 230,
+    "submissionAId": 573,
+    "submissionBId": 595,
+    "mapId": 4,
+    "ranked": true,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 114,
+    "scoresB": 104,
+    "replayKey": "replays/8479.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "cd2a6827-323f-432b-a441-e54682f7d68e",
+    "eloChangeA": 53,
+    "eloChangeB": -53,
+    "requestedAt": "2026-09-21T11:55:00.337Z",
+    "startedAt": "2026-09-21T11:55:00.750Z",
+    "completedAt": "2026-09-21T11:55:25.204Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T11:55:21.541Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Default",
+  "teamAName": "An IQ too high?",
+  "teamBName": "my cactus died so now i’m a depressed programmer",
+  "teamAElo": 1699,
+  "teamBElo": 1595,
+  "games": [
+    {
+      "id": 8475,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8476,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8477,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8478,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8479,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

@@ -1,0 +1,46 @@
+{
+  "map": "big_empty",
+  "map_sha": "325d6f9e1e25c5aecfb518787c8ba6454a38f3dde6ae48e820aa74fc9330abd1",
+  "phase": "whole-game",
+  "nodes": [
+    "830aa0e55acdec6aaa051183ad549a61aeb0bc47756250204ec4d233ce11158f",
+    "b19f5b6828753d44cbd0f47f898f611edf02554ac77f68f284631a316bd3d376",
+    "d79d728b403665e37135ab7590e5f900d0e02933be997b38c7a31fe5e1bff568",
+    "e4c1c161b4457f8c87ef2943530e21aeca2fb166453d48840d82dfc0c5ad5a0d"
+  ],
+  "edges": [
+    {
+      "source": "e4c1c161b4457f8c87ef2943530e21aeca2fb166453d48840d82dfc0c5ad5a0d",
+      "target": "830aa0e55acdec6aaa051183ad549a61aeb0bc47756250204ec4d233ce11158f",
+      "score": 1.0,
+      "weight": 1.0,
+      "games": 2,
+      "both_sides": true,
+      "relation": "observed_advantage",
+      "runtime_enabled": false,
+      "warning": "Descriptive direct matchup; not a proven counter or a phase-conditioned policy."
+    },
+    {
+      "source": "e4c1c161b4457f8c87ef2943530e21aeca2fb166453d48840d82dfc0c5ad5a0d",
+      "target": "b19f5b6828753d44cbd0f47f898f611edf02554ac77f68f284631a316bd3d376",
+      "score": 1.0,
+      "weight": 1.0,
+      "games": 2,
+      "both_sides": true,
+      "relation": "observed_advantage",
+      "runtime_enabled": false,
+      "warning": "Descriptive direct matchup; not a proven counter or a phase-conditioned policy."
+    },
+    {
+      "source": "e4c1c161b4457f8c87ef2943530e21aeca2fb166453d48840d82dfc0c5ad5a0d",
+      "target": "d79d728b403665e37135ab7590e5f900d0e02933be997b38c7a31fe5e1bff568",
+      "score": 1.0,
+      "weight": 1.0,
+      "games": 2,
+      "both_sides": true,
+      "relation": "observed_advantage",
+      "runtime_enabled": false,
+      "warning": "Descriptive direct matchup; not a proven counter or a phase-conditioned policy."
+    }
+  ]
+}

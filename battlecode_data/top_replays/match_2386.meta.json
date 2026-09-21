@@ -1,0 +1,38 @@
+{
+  "id": 2386,
+  "teamAId": 213,
+  "teamBId": 306,
+  "submissionAId": 177,
+  "submissionBId": 98,
+  "mapId": 11,
+  "ranked": true,
+  "status": "completed",
+  "winner": "b",
+  "seriesId": "8d650b00-e139-4230-804c-31145b5b3b4e",
+  "mapName": "Trophy",
+  "teamAName": "Sponge(Albert and Bob)",
+  "teamBName": "Vibing++",
+  "match_id": 2386,
+  "group_id": "series:8d650b00-e139-4230-804c-31145b5b3b4e",
+  "source_url": "https://game.battlecode.au/visualiser?match=2386",
+  "completed_utc": "2026-09-21T05:56:45.947000+00:00",
+  "sha256": "8df6e910005c47b04fc54e15fa3b6c5d3a77a6387ab006d3043ec2c87cb5828b",
+  "downloaded_utc": "2026-09-21T06:58:53.593176+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "B",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    },
+    "B": {
+      "dragon_count": 25,
+      "longest_dragon": 5,
+      "total_length": 91
+    }
+  }
+}

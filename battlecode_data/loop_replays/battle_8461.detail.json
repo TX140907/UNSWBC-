@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 8461,
+    "teamAId": 133,
+    "teamBId": 128,
+    "submissionAId": 599,
+    "submissionBId": 573,
+    "mapId": 2,
+    "ranked": false,
+    "skinA": "Vatulele Prawn",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 67,
+    "scoresB": 0,
+    "replayKey": "replays/8461.replay",
+    "requestedBy": "SVRpuyxIYpnwswjH0umIHAgx7qwQZPxz",
+    "seriesId": "557f4821-87ea-489b-a605-e5c7ca802b01",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T11:54:31.070Z",
+    "startedAt": "2026-09-21T11:54:31.116Z",
+    "completedAt": "2026-09-21T11:54:42.485Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T11:54:31.116Z",
+    "claimedBy": "8b9001c90610",
+    "log": null
+  },
+  "mapName": "Arena",
+  "teamAName": "Jingling Munmin",
+  "teamBName": "An IQ too high?",
+  "teamAElo": 1507,
+  "teamBElo": 1693,
+  "games": [
+    {
+      "id": 8461,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8462,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8463,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8464,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8465,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8466,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8467,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8468,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

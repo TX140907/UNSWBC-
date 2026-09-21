@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 417,
+  "submissionAId": 573,
+  "submissionBId": 537,
+  "mapId": 1,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "d776ba52-d72c-4054-87c6-968f0a7386e4",
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Matcha Latte",
+  "match_id": 8240,
+  "group_id": "series:d776ba52-d72c-4054-87c6-968f0a7386e4",
+  "sha256": "be0335040ba150a3365c9f4e34aedc63aeb7c4a55adb5bc45f071c3b6a72efe8",
+  "source_url": "https://game.battlecode.au/visualiser?match=8240",
+  "validated": true
+}

@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-09-21T13:27:17.234342+00:00",
+  "bot": "battlecode_data\\training_loop\\map-campaign-20260921\\round1\\baseline\\bot.exe",
+  "opponent": "battlecode_data\\training_loop\\map-campaign-20260921\\opponents\\NamBot",
+  "bot_files": {
+    "battlecode_data\\training_loop\\map-campaign-20260921\\round1\\baseline\\bot.exe": "f761c3c016644ca4718de4b771a8b0a293ee9b56d50b76b88072d0e9cc5a9ca6"
+  },
+  "opponent_files": {
+    "battlecode_data\\training_loop\\map-campaign-20260921\\opponents\\NamBot\\bot.toml": "5514895b6a19c1aef435552674dccd17722eb8664822cbec8cead5cca58fa94d",
+    "battlecode_data\\training_loop\\map-campaign-20260921\\opponents\\NamBot\\helper.py": "c32d4494405503c3ff67f5251de7a7b8cc7f2318eb252372b97fe7254575f9fd",
+    "battlecode_data\\training_loop\\map-campaign-20260921\\opponents\\NamBot\\main.py": "2ba4e36cc5fe04592b3b4463f6702466fa13837a9fd53f1e6af64af8c1986ce5"
+  },
+  "maps": {
+    "arena.map": "a4d7e5358796c788a7392df1f6bf268af59a964d00463bc79830e4101d8bd74e",
+    "big_empty.map": "325d6f9e1e25c5aecfb518787c8ba6454a38f3dde6ae48e820aa74fc9330abd1",
+    "Colosseum.map": "c49518b65561b5d85c2709f7fa5aa275c2341b3cdcf6c97c9e4a3f44f96386c0",
+    "default.map": "d1482429458bd7dbb80ffb862ea7fdf531b70f2ea891c95f002af9ffd1b705e0",
+    "default_small.map": "b1f09be73e876dcee0f46acdd424bd770cf2ab8a9727752f658d178354382562",
+    "help.map": "798654ce2ee15dce2b6b837debfab902638928c4c78395aba6227ace7cbaeb9a",
+    "queen_of_spades.map": "bf9886dc024dc3005c26e35066feb7dfe7eb03d518d8b2b467163164ca795918",
+    "queen_of_spades_but_she_ages.map": "fb60dad47e5a991bc28669e05da4f0bf416412d37c7141afed58cf19ac853aa5",
+    "schooltime.map": "448616c71781d2246602129bd392ddf0e57e3aae886d9c8388b234a21e4d040c",
+    "trophy.map": "3dffb977ef762e7cd5970aea68b2945cad1b1737725b94d90a91d70a704cd2f9"
+  },
+  "sides": [
+    "A",
+    "B"
+  ],
+  "toolkit": "unswbc 0.3.5"
+}

@@ -1,0 +1,640 @@
+[
+  {
+    "id": 8860,
+    "ranked": true,
+    "opponentId": 64,
+    "opponent": "uoa",
+    "opponentElo": 1703,
+    "eloChange": 35,
+    "results": [
+      "loss",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 4,
+    "losses": 1,
+    "outcome": "win",
+    "replayId": 8860,
+    "at": "2026-09-21T12:06:37.293Z"
+  },
+  {
+    "id": 8839,
+    "ranked": true,
+    "opponentId": 116,
+    "opponent": "Spearhead Capital",
+    "opponentElo": 1696,
+    "eloChange": -27,
+    "results": [
+      "win",
+      "loss",
+      "loss",
+      "loss",
+      "loss"
+    ],
+    "wins": 1,
+    "losses": 4,
+    "outcome": "loss",
+    "replayId": 8839,
+    "at": "2026-09-21T12:02:59.169Z"
+  },
+  {
+    "id": 8573,
+    "ranked": true,
+    "opponentId": 280,
+    "opponent": "SHINK AI 6500",
+    "opponentElo": 1808,
+    "eloChange": 8,
+    "results": [
+      "loss",
+      "loss",
+      "win",
+      "loss",
+      "win"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 8573,
+    "at": "2026-09-21T12:00:42.296Z"
+  },
+  {
+    "id": 8461,
+    "ranked": false,
+    "opponentId": 133,
+    "opponent": "Jingling Munmin",
+    "opponentElo": 1480,
+    "eloChange": 0,
+    "results": [
+      "loss",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "loss"
+    ],
+    "wins": 6,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 8461,
+    "at": "2026-09-21T11:56:15.831Z"
+  },
+  {
+    "id": 8475,
+    "ranked": true,
+    "opponentId": 230,
+    "opponent": "my cactus died so now i’m a depressed programmer",
+    "opponentElo": 1663,
+    "eloChange": 53,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 5,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 8475,
+    "at": "2026-09-21T11:55:41.061Z"
+  },
+  {
+    "id": 8384,
+    "ranked": false,
+    "opponentId": 133,
+    "opponent": "Jingling Munmin",
+    "opponentElo": 1480,
+    "eloChange": 0,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 8,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 8384,
+    "at": "2026-09-21T11:51:00.782Z"
+  },
+  {
+    "id": 8256,
+    "ranked": false,
+    "opponentId": 352,
+    "opponent": "HUST IT1",
+    "opponentElo": 1353,
+    "eloChange": 0,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 8,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 8256,
+    "at": "2026-09-21T11:48:51.399Z"
+  },
+  {
+    "id": 8240,
+    "ranked": true,
+    "opponentId": 417,
+    "opponent": "Matcha Latte",
+    "opponentElo": 1638,
+    "eloChange": -9,
+    "results": [
+      "win",
+      "loss",
+      "loss",
+      "loss",
+      "win"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 8240,
+    "at": "2026-09-21T11:48:23.678Z"
+  },
+  {
+    "id": 8231,
+    "ranked": false,
+    "opponentId": 352,
+    "opponent": "HUST IT1",
+    "opponentElo": 1353,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 8231,
+    "at": "2026-09-21T11:47:13.288Z"
+  },
+  {
+    "id": 8180,
+    "ranked": true,
+    "opponentId": 419,
+    "opponent": "vom",
+    "opponentElo": 1623,
+    "eloChange": 10,
+    "results": [
+      "loss",
+      "win",
+      "loss",
+      "win",
+      "win"
+    ],
+    "wins": 3,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 8180,
+    "at": "2026-09-21T11:45:47.180Z"
+  },
+  {
+    "id": 8000,
+    "ranked": true,
+    "opponentId": 201,
+    "opponent": "NeungzAI",
+    "opponentElo": 1599,
+    "eloChange": 7,
+    "results": [
+      "win",
+      "win",
+      "loss",
+      "loss",
+      "win"
+    ],
+    "wins": 3,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 8000,
+    "at": "2026-09-21T11:37:38.126Z"
+  },
+  {
+    "id": 7988,
+    "ranked": false,
+    "opponentId": 133,
+    "opponent": "Jingling Munmin",
+    "opponentElo": 1480,
+    "eloChange": 0,
+    "results": [
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 3,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 7988,
+    "at": "2026-09-21T11:35:37.943Z"
+  },
+  {
+    "id": 7843,
+    "ranked": true,
+    "opponentId": 400,
+    "opponent": "All Roads Lead to Makuhari",
+    "opponentElo": 1634,
+    "eloChange": 14,
+    "results": [
+      "loss",
+      "win",
+      "win",
+      "win",
+      "loss"
+    ],
+    "wins": 3,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 7843,
+    "at": "2026-09-21T11:31:13.655Z"
+  },
+  {
+    "id": 7660,
+    "ranked": true,
+    "opponentId": 123,
+    "opponent": "shark++",
+    "opponentElo": 1593,
+    "eloChange": 32,
+    "results": [
+      "loss",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 4,
+    "losses": 1,
+    "outcome": "win",
+    "replayId": 7660,
+    "at": "2026-09-21T11:22:09.415Z"
+  },
+  {
+    "id": 7557,
+    "ranked": true,
+    "opponentId": 221,
+    "opponent": "hm",
+    "opponentElo": 1432,
+    "eloChange": -53,
+    "results": [
+      "loss",
+      "win",
+      "loss",
+      "loss",
+      "loss"
+    ],
+    "wins": 1,
+    "losses": 4,
+    "outcome": "loss",
+    "replayId": 7557,
+    "at": "2026-09-21T11:16:08.627Z"
+  },
+  {
+    "id": 7042,
+    "ranked": true,
+    "opponentId": 400,
+    "opponent": "All Roads Lead to Makuhari",
+    "opponentElo": 1636,
+    "eloChange": -9,
+    "results": [
+      "loss",
+      "win",
+      "loss",
+      "win",
+      "loss"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 7042,
+    "at": "2026-09-21T10:44:45.650Z"
+  },
+  {
+    "id": 6919,
+    "ranked": true,
+    "opponentId": 400,
+    "opponent": "All Roads Lead to Makuhari",
+    "opponentElo": 1623,
+    "eloChange": -13,
+    "results": [
+      "loss",
+      "loss",
+      "win",
+      "win",
+      "loss"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 6919,
+    "at": "2026-09-21T10:42:33.449Z"
+  },
+  {
+    "id": 6889,
+    "ranked": false,
+    "opponentId": 352,
+    "opponent": "HUST IT1",
+    "opponentElo": 1353,
+    "eloChange": 0,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "win",
+      "loss"
+    ],
+    "wins": 7,
+    "losses": 1,
+    "outcome": "win",
+    "replayId": 6889,
+    "at": "2026-09-21T10:39:44.735Z"
+  },
+  {
+    "id": 6829,
+    "ranked": false,
+    "opponentId": 352,
+    "opponent": "HUST IT1",
+    "opponentElo": 1353,
+    "eloChange": 0,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 4,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 6829,
+    "at": "2026-09-21T10:36:44.364Z"
+  },
+  {
+    "id": 6797,
+    "ranked": false,
+    "opponentId": 413,
+    "opponent": "nice try",
+    "opponentElo": 1442,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 6797,
+    "at": "2026-09-21T10:31:05.599Z"
+  },
+  {
+    "id": 6243,
+    "ranked": true,
+    "opponentId": 370,
+    "opponent": "Quant Merch Trader",
+    "opponentElo": 1554,
+    "eloChange": 41,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 5,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 6243,
+    "at": "2026-09-21T10:01:32.908Z"
+  },
+  {
+    "id": 5982,
+    "ranked": false,
+    "opponentId": 190,
+    "opponent": "risq-v",
+    "opponentElo": 1476,
+    "eloChange": 0,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 4,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 5982,
+    "at": "2026-09-21T09:43:52.263Z"
+  },
+  {
+    "id": 5907,
+    "ranked": true,
+    "opponentId": 104,
+    "opponent": "Peanut Butter",
+    "opponentElo": 1633,
+    "eloChange": -7,
+    "results": [
+      "loss",
+      "win",
+      "win",
+      "loss",
+      "loss"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 5907,
+    "at": "2026-09-21T09:42:13.824Z"
+  },
+  {
+    "id": 5808,
+    "ranked": false,
+    "opponentId": 104,
+    "opponent": "Peanut Butter",
+    "opponentElo": 1551,
+    "eloChange": 0,
+    "results": [
+      "loss",
+      "loss",
+      "loss",
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 4,
+    "outcome": "loss",
+    "replayId": 5808,
+    "at": "2026-09-21T09:36:19.217Z"
+  },
+  {
+    "id": 5709,
+    "ranked": true,
+    "opponentId": 400,
+    "opponent": "All Roads Lead to Makuhari",
+    "opponentElo": 1634,
+    "eloChange": -8,
+    "results": [
+      "win",
+      "loss",
+      "loss",
+      "loss",
+      "win"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 5709,
+    "at": "2026-09-21T09:32:27.554Z"
+  },
+  {
+    "id": 5584,
+    "ranked": true,
+    "opponentId": 400,
+    "opponent": "All Roads Lead to Makuhari",
+    "opponentElo": 1624,
+    "eloChange": -10,
+    "results": [
+      "loss",
+      "loss",
+      "loss",
+      "win",
+      "win"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 5584,
+    "at": "2026-09-21T09:26:43.779Z"
+  },
+  {
+    "id": 5006,
+    "ranked": false,
+    "opponentId": 370,
+    "opponent": "Quant Merch Trader",
+    "opponentElo": 1554,
+    "eloChange": 0,
+    "results": [
+      "loss",
+      "win",
+      "win",
+      "loss"
+    ],
+    "wins": 2,
+    "losses": 2,
+    "outcome": "draw",
+    "replayId": 5006,
+    "at": "2026-09-21T08:36:13.697Z"
+  },
+  {
+    "id": 5014,
+    "ranked": true,
+    "opponentId": 82,
+    "opponent": "free trip to sydney pls",
+    "opponentElo": 1695,
+    "eloChange": -1,
+    "results": [
+      "win",
+      "loss",
+      "loss",
+      "win",
+      "loss"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 5014,
+    "at": "2026-09-21T08:35:56.415Z"
+  },
+  {
+    "id": 4981,
+    "ranked": true,
+    "opponentId": 189,
+    "opponent": "FunBot",
+    "opponentElo": 1575,
+    "eloChange": 47,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 5,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 4981,
+    "at": "2026-09-21T08:34:33.966Z"
+  },
+  {
+    "id": 4919,
+    "ranked": true,
+    "opponentId": 190,
+    "opponent": "risq-v",
+    "opponentElo": 1554,
+    "eloChange": 29,
+    "results": [
+      "win",
+      "win",
+      "loss",
+      "win",
+      "win"
+    ],
+    "wins": 4,
+    "losses": 1,
+    "outcome": "win",
+    "replayId": 4919,
+    "at": "2026-09-21T08:33:08.596Z"
+  },
+  {
+    "id": 4870,
+    "ranked": true,
+    "opponentId": 58,
+    "opponent": "FemPuppyboys",
+    "opponentElo": 1548,
+    "eloChange": 10,
+    "results": [
+      "win",
+      "loss",
+      "win",
+      "win",
+      "loss"
+    ],
+    "wins": 3,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 4870,
+    "at": "2026-09-21T08:28:14.597Z"
+  },
+  {
+    "id": 4737,
+    "ranked": true,
+    "opponentId": 462,
+    "opponent": "GG freaking EZ",
+    "opponentElo": 1470,
+    "eloChange": 44,
+    "results": [
+      "win",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 5,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 4737,
+    "at": "2026-09-21T08:24:10.593Z"
+  }
+]

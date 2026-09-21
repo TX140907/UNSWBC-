@@ -1,0 +1,47 @@
+[
+  {
+    "map": "arena",
+    "side": "A",
+    "result": "win",
+    "rounds": 212,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 41.527
+  },
+  {
+    "map": "arena",
+    "side": "B",
+    "result": "win",
+    "rounds": 89,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 22.444
+  },
+  {
+    "map": "big_empty",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 128.62
+  },
+  {
+    "map": "big_empty",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 79.433
+  },
+  {
+    "map": "Colosseum",
+    "side": "A",
+    "result": "win",
+    "rounds": 316,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 45.167
+  }
+]

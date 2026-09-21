@@ -1,0 +1,18 @@
+{
+  "teamAId": 280,
+  "teamBId": 128,
+  "submissionAId": 559,
+  "submissionBId": 573,
+  "mapId": 2,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "59768bd7-c267-4e28-a473-51f55c0cd84c",
+  "mapName": "Arena",
+  "teamAName": "SHINK AI 6500",
+  "teamBName": "An IQ too high?",
+  "match_id": 8577,
+  "group_id": "series:59768bd7-c267-4e28-a473-51f55c0cd84c",
+  "sha256": "66646bbf462bdc7a5c111ae3ef49af62a8ff2c77a948354db13d1a362dea9be8",
+  "source_url": "https://game.battlecode.au/visualiser?match=8577",
+  "validated": true
+}

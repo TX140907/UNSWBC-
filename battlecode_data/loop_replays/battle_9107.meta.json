@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 119,
+  "submissionAId": 573,
+  "submissionBId": 498,
+  "mapId": 5,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "00459478-8981-4306-9a53-9ba4338e125f",
+  "mapName": "Default Small",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Lon Co Kiri",
+  "match_id": 9107,
+  "group_id": "series:00459478-8981-4306-9a53-9ba4338e125f",
+  "sha256": "b093b6b477ace38f62a0cd456301e315dd692145dd0fe93e7a7b3d65ab9d0b4e",
+  "source_url": "https://game.battlecode.au/visualiser?match=9107",
+  "validated": true
+}

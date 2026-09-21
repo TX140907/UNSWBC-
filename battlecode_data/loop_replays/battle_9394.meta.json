@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 332,
+  "submissionAId": 641,
+  "submissionBId": 383,
+  "mapId": 1,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "12e5f0d0-a2ea-40ce-a9b2-119c5305cb81",
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Kabyle Warriors",
+  "match_id": 9394,
+  "group_id": "series:12e5f0d0-a2ea-40ce-a9b2-119c5305cb81",
+  "sha256": "9a5bbcd11d7e9f74988ff695c6711f4f81789b72e6d47c4b05d4a52bc16ca5ff",
+  "source_url": "https://game.battlecode.au/visualiser?match=9394",
+  "validated": true
+}

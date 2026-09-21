@@ -1,0 +1,182 @@
+[
+  {
+    "map": "arena",
+    "side": "A",
+    "result": "win",
+    "rounds": 92,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 10.141
+  },
+  {
+    "map": "arena",
+    "side": "B",
+    "result": "win",
+    "rounds": 280,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 34.961
+  },
+  {
+    "map": "big_empty",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 91.793
+  },
+  {
+    "map": "big_empty",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 122.867
+  },
+  {
+    "map": "Colosseum",
+    "side": "A",
+    "result": "win",
+    "rounds": 316,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 41.899
+  },
+  {
+    "map": "Colosseum",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 95.645
+  },
+  {
+    "map": "default",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 49.289
+  },
+  {
+    "map": "default",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 64.578
+  },
+  {
+    "map": "default_small",
+    "side": "A",
+    "result": "win",
+    "rounds": 247,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 15.73
+  },
+  {
+    "map": "default_small",
+    "side": "B",
+    "result": "win",
+    "rounds": 234,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 13.392
+  },
+  {
+    "map": "help",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 388.751
+  },
+  {
+    "map": "help",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 385.199
+  },
+  {
+    "map": "queen_of_spades",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 21.77
+  },
+  {
+    "map": "queen_of_spades",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 19.403
+  },
+  {
+    "map": "queen_of_spades_but_she_ages",
+    "side": "A",
+    "result": "win",
+    "rounds": 485,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 30.885
+  },
+  {
+    "map": "queen_of_spades_but_she_ages",
+    "side": "B",
+    "result": "win",
+    "rounds": 416,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 16.84
+  },
+  {
+    "map": "schooltime",
+    "side": "A",
+    "result": "win",
+    "rounds": 383,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 34.23
+  },
+  {
+    "map": "schooltime",
+    "side": "B",
+    "result": "win",
+    "rounds": 230,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 16.036
+  },
+  {
+    "map": "trophy",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 41.629
+  },
+  {
+    "map": "trophy",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 36.772
+  }
+]

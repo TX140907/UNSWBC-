@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9394,
+    "teamAId": 128,
+    "teamBId": 332,
+    "submissionAId": 641,
+    "submissionBId": 383,
+    "mapId": 1,
+    "ranked": false,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 116,
+    "replayKey": "replays/9394.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "12e5f0d0-a2ea-40ce-a9b2-119c5305cb81",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:36:12.999Z",
+    "startedAt": "2026-09-21T12:36:13.434Z",
+    "completedAt": "2026-09-21T12:36:36.743Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:36:21.988Z",
+    "claimedBy": "95f1166baff8",
+    "log": null
+  },
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Kabyle Warriors",
+  "teamAElo": 1638,
+  "teamBElo": 1655,
+  "games": [
+    {
+      "id": 9394,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

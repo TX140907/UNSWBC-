@@ -1,0 +1,25 @@
+{
+  "initial_submission": 667,
+  "map_training": true,
+  "rounds": [
+    {
+      "number": 1,
+      "budget": 7,
+      "phase": "new",
+      "battle_ids": []
+    },
+    {
+      "number": 2,
+      "budget": 7,
+      "phase": "new",
+      "battle_ids": []
+    },
+    {
+      "number": 3,
+      "budget": 6,
+      "phase": "new",
+      "battle_ids": []
+    }
+  ],
+  "initial_synced": true
+}

@@ -1,0 +1,238 @@
+{
+  "initial_submission": 573,
+  "rounds": [
+    {
+      "number": 1,
+      "budget": 7,
+      "phase": "done",
+      "battle_ids": [
+        9162,
+        9163,
+        9164,
+        9165,
+        9167,
+        9168,
+        9170
+      ],
+      "previous_submission": 573,
+      "weights": {
+        "11x11/short": 1.093
+      },
+      "local_maps": [
+        "arena"
+      ],
+      "decision": "passed local gate",
+      "submission": 632,
+      "upload_started": true,
+      "targets": [
+        {
+          "team_id": 82,
+          "team_name": "free trip to sydney pls",
+          "rank": 8,
+          "map_id": 1,
+          "map_name": "Colosseum"
+        },
+        {
+          "team_id": 319,
+          "team_name": "kfcvme50",
+          "rank": 10,
+          "map_id": 2,
+          "map_name": "Arena"
+        },
+        {
+          "team_id": 116,
+          "team_name": "Spearhead Capital",
+          "rank": 7,
+          "map_id": 3,
+          "map_name": "Big Empty"
+        },
+        {
+          "team_id": 64,
+          "team_name": "uoa",
+          "rank": 11,
+          "map_id": 4,
+          "map_name": "Default"
+        },
+        {
+          "team_id": 119,
+          "team_name": "Lon Co Kiri",
+          "rank": 6,
+          "map_id": 5,
+          "map_name": "Default Small"
+        },
+        {
+          "team_id": 485,
+          "team_name": "err404",
+          "rank": 12,
+          "map_id": 7,
+          "map_name": "Queen Of Spades"
+        },
+        {
+          "team_id": 213,
+          "team_name": "Sponge(Albert and Bob)",
+          "rank": 5,
+          "map_id": 9,
+          "map_name": "Schooltime"
+        }
+      ],
+      "results": {
+        "win": 4,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    {
+      "number": 2,
+      "budget": 7,
+      "phase": "done",
+      "battle_ids": [
+        9393,
+        9394,
+        9395,
+        9396,
+        9397,
+        9398,
+        9399
+      ],
+      "previous_submission": 632,
+      "weights": {
+        "11x11/short": 1.14
+      },
+      "local_maps": [
+        "arena"
+      ],
+      "decision": "passed local gate",
+      "submission": 641,
+      "upload_started": true,
+      "targets": [
+        {
+          "team_id": 19,
+          "team_name": "test4",
+          "rank": 9,
+          "map_id": 11,
+          "map_name": "Trophy"
+        },
+        {
+          "team_id": 332,
+          "team_name": "Kabyle Warriors",
+          "rank": 13,
+          "map_id": 1,
+          "map_name": "Colosseum"
+        },
+        {
+          "team_id": 419,
+          "team_name": "vom",
+          "rank": 15,
+          "map_id": 2,
+          "map_name": "Arena"
+        },
+        {
+          "team_id": 249,
+          "team_name": "Team SKKU",
+          "rank": 4,
+          "map_id": 3,
+          "map_name": "Big Empty"
+        },
+        {
+          "team_id": 456,
+          "team_name": "ðŸ˜¹",
+          "rank": 16,
+          "map_id": 4,
+          "map_name": "Default"
+        },
+        {
+          "team_id": 280,
+          "team_name": "SHINK AI 6500",
+          "rank": 3,
+          "map_id": 5,
+          "map_name": "Default Small"
+        },
+        {
+          "team_id": 107,
+          "team_name": "two birds one stone",
+          "rank": 17,
+          "map_id": 7,
+          "map_name": "Queen Of Spades"
+        }
+      ],
+      "results": {
+        "win": 3,
+        "loss": 4,
+        "draw": 0
+      }
+    },
+    {
+      "number": 3,
+      "budget": 6,
+      "phase": "done",
+      "battle_ids": [
+        9590,
+        9776,
+        9777,
+        9778,
+        9779,
+        9780
+      ],
+      "previous_submission": 641,
+      "weights": {
+        "11x11/short": 1.132
+      },
+      "local_maps": [
+        "arena"
+      ],
+      "decision": "passed local gate",
+      "submission": 649,
+      "upload_started": true,
+      "targets": [
+        {
+          "team_id": 104,
+          "team_name": "Peanut Butter",
+          "rank": 16,
+          "map_id": 9,
+          "map_name": "Schooltime"
+        },
+        {
+          "team_id": 264,
+          "team_name": "forgot to mention",
+          "rank": 12,
+          "map_id": 11,
+          "map_name": "Trophy"
+        },
+        {
+          "team_id": 417,
+          "team_name": "Matcha Latte",
+          "rank": 11,
+          "map_id": 1,
+          "map_name": "Colosseum"
+        },
+        {
+          "team_id": 201,
+          "team_name": "NeungzAI",
+          "rank": 20,
+          "map_id": 2,
+          "map_name": "Arena"
+        },
+        {
+          "team_id": 221,
+          "team_name": "hm",
+          "rank": 22,
+          "map_id": 3,
+          "map_name": "Big Empty"
+        },
+        {
+          "team_id": 70,
+          "team_name": "cheji bt",
+          "rank": 23,
+          "map_id": 4,
+          "map_name": "Default"
+        }
+      ],
+      "results": {
+        "win": 3,
+        "loss": 3,
+        "draw": 0
+      }
+    }
+  ],
+  "initial_synced": true
+}

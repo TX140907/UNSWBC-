@@ -1,0 +1,21 @@
+{
+  "source": "all",
+  "start_page": 1,
+  "page_limit": 1,
+  "match_limit": 1,
+  "created_utc": "20260921T095317294418Z",
+  "matches": [
+    {
+      "match_id": 6125,
+      "discovered_from": "https://game.battlecode.au/battles",
+      "series_page": "https://game.battlecode.au/battles/6125",
+      "status": "downloaded",
+      "group_id": "series:f7c009ce-32eb-4585-8656-d204ab85c1e6"
+    }
+  ],
+  "totals": {
+    "downloaded": 1,
+    "already_saved": 0,
+    "failed": 0
+  }
+}

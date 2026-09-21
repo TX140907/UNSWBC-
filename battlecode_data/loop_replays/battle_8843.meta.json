@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 116,
+  "submissionAId": 573,
+  "submissionBId": 564,
+  "mapId": 4,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "eb713346-5ed1-4d2b-90c4-44bada7d92d0",
+  "mapName": "Default",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Spearhead Capital",
+  "match_id": 8843,
+  "group_id": "series:eb713346-5ed1-4d2b-90c4-44bada7d92d0",
+  "sha256": "eb5867466568ff6d4f34f57ae7adf5bb6a7276fcbab7250e2790f053f804e510",
+  "source_url": "https://game.battlecode.au/visualiser?match=8843",
+  "validated": true
+}

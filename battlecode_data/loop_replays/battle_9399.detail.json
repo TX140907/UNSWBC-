@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9399,
+    "teamAId": 128,
+    "teamBId": 107,
+    "submissionAId": 641,
+    "submissionBId": 578,
+    "mapId": 7,
+    "ranked": false,
+    "skinA": "Jiaolong",
+    "skinB": "Loch Ness",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 59,
+    "scoresB": 33,
+    "replayKey": "replays/9399.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "e3271418-a13c-49e6-ab23-68ef98473426",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:36:19.529Z",
+    "startedAt": "2026-09-21T12:36:20.599Z",
+    "completedAt": "2026-09-21T12:36:41.185Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:36:36.704Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Queen Of Spades",
+  "teamAName": "An IQ too high?",
+  "teamBName": "two birds one stone",
+  "teamAElo": 1638,
+  "teamBElo": 1622,
+  "games": [
+    {
+      "id": 9399,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

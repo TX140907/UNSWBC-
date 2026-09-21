@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 213,
+  "submissionAId": 632,
+  "submissionBId": 427,
+  "mapId": 9,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "3910194c-2d76-4ede-a154-3ea8664f38fa",
+  "mapName": "Schooltime",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Sponge(Albert and Bob)",
+  "match_id": 9170,
+  "group_id": "series:3910194c-2d76-4ede-a154-3ea8664f38fa",
+  "sha256": "b6c8c2a06ab1c90f8a9639126937f29b95fcfe25b1c989022f8d9b8c41e90e5c",
+  "source_url": "https://game.battlecode.au/visualiser?match=9170",
+  "validated": true
+}

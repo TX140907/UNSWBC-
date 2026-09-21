@@ -1,0 +1,62 @@
+{
+  "match": {
+    "id": 8573,
+    "teamAId": 280,
+    "teamBId": 128,
+    "submissionAId": 559,
+    "submissionBId": 573,
+    "mapId": 11,
+    "ranked": true,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 34,
+    "scoresB": 0,
+    "replayKey": "replays/8573.replay",
+    "requestedBy": null,
+    "seriesId": "59768bd7-c267-4e28-a473-51f55c0cd84c",
+    "eloChangeA": -8,
+    "eloChangeB": 8,
+    "requestedAt": "2026-09-21T12:00:00.084Z",
+    "startedAt": "2026-09-21T12:00:01.066Z",
+    "completedAt": "2026-09-21T12:00:05.971Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:00:01.066Z",
+    "claimedBy": "95f1166baff8",
+    "log": null
+  },
+  "mapName": "Trophy",
+  "teamAName": "SHINK AI 6500",
+  "teamBName": "An IQ too high?",
+  "teamAElo": 1800,
+  "teamBElo": 1693,
+  "games": [
+    {
+      "id": 8573,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8574,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8575,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8576,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8577,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": 5983,
+  "teamAId": 190,
+  "teamBId": 128,
+  "submissionAId": 448,
+  "submissionBId": 372,
+  "mapId": 4,
+  "ranked": false,
+  "status": "completed",
+  "winner": "b",
+  "seriesId": "0f2eb809-a66c-4d40-98dd-a72b77ff30f1",
+  "mapName": "Default",
+  "teamAName": "risq-v",
+  "teamBName": "An IQ too high?",
+  "match_id": 5983,
+  "group_id": "series:0f2eb809-a66c-4d40-98dd-a72b77ff30f1",
+  "source_url": "https://game.battlecode.au/visualiser?match=5983",
+  "completed_utc": "2026-09-21T09:43:52.167000+00:00",
+  "sha256": "7642b763b0a0ec2796e0ca806536ac332844b33107d0c92d7dcdb383c1d1bead",
+  "downloaded_utc": "2026-09-21T10:09:35.257664+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "B",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    },
+    "B": {
+      "dragon_count": 4,
+      "longest_dragon": 4,
+      "total_length": 16
+    }
+  }
+}

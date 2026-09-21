@@ -1,0 +1,520 @@
+[
+  {
+    "id": 10207,
+    "ranked": true,
+    "opponentId": 116,
+    "opponent": "Spearhead Capital",
+    "opponentElo": 1703,
+    "eloChange": -2,
+    "results": [
+      "win",
+      "loss",
+      "loss",
+      "loss",
+      "win"
+    ],
+    "wins": 2,
+    "losses": 3,
+    "outcome": "loss",
+    "replayId": 10207,
+    "at": "2026-09-21T13:04:13.445Z"
+  },
+  {
+    "id": 10182,
+    "ranked": true,
+    "opponentId": 417,
+    "opponent": "Matcha Latte",
+    "opponentElo": 1677,
+    "eloChange": -28,
+    "results": [
+      "loss",
+      "loss",
+      "loss",
+      "win",
+      "loss"
+    ],
+    "wins": 1,
+    "losses": 4,
+    "outcome": "loss",
+    "replayId": 10182,
+    "at": "2026-09-21T13:03:15.821Z"
+  },
+  {
+    "id": 10002,
+    "ranked": true,
+    "opponentId": 264,
+    "opponent": "forgot to mention",
+    "opponentElo": 1665,
+    "eloChange": 10,
+    "results": [
+      "win",
+      "win",
+      "loss",
+      "win",
+      "loss"
+    ],
+    "wins": 3,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 10002,
+    "at": "2026-09-21T12:57:21.255Z"
+  },
+  {
+    "id": 9955,
+    "ranked": false,
+    "opponentId": 70,
+    "opponent": "cheji bt",
+    "opponentElo": 1664,
+    "eloChange": 0,
+    "results": [
+      "loss",
+      "loss",
+      "win"
+    ],
+    "wins": 1,
+    "losses": 2,
+    "outcome": "loss",
+    "replayId": 9955,
+    "at": "2026-09-21T12:55:12.433Z"
+  },
+  {
+    "id": 9780,
+    "ranked": false,
+    "opponentId": 70,
+    "opponent": "cheji bt",
+    "opponentElo": 1664,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9780,
+    "at": "2026-09-21T12:49:56.515Z"
+  },
+  {
+    "id": 9779,
+    "ranked": false,
+    "opponentId": 221,
+    "opponent": "hm",
+    "opponentElo": 1569,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9779,
+    "at": "2026-09-21T12:47:59.346Z"
+  },
+  {
+    "id": 9778,
+    "ranked": false,
+    "opponentId": 201,
+    "opponent": "NeungzAI",
+    "opponentElo": 1657,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9778,
+    "at": "2026-09-21T12:47:54.057Z"
+  },
+  {
+    "id": 9776,
+    "ranked": false,
+    "opponentId": 264,
+    "opponent": "forgot to mention",
+    "opponentElo": 1665,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9776,
+    "at": "2026-09-21T12:47:53.055Z"
+  },
+  {
+    "id": 9777,
+    "ranked": false,
+    "opponentId": 417,
+    "opponent": "Matcha Latte",
+    "opponentElo": 1667,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9777,
+    "at": "2026-09-21T12:47:52.583Z"
+  },
+  {
+    "id": 9727,
+    "ranked": true,
+    "opponentId": 332,
+    "opponent": "Kabyle Warriors",
+    "opponentElo": 1546,
+    "eloChange": -7,
+    "results": [
+      "loss",
+      "win",
+      "win",
+      "loss",
+      "win"
+    ],
+    "wins": 3,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 9727,
+    "at": "2026-09-21T12:46:32.113Z"
+  },
+  {
+    "id": 9702,
+    "ranked": true,
+    "opponentId": 456,
+    "opponent": "😹",
+    "opponentElo": 1622,
+    "eloChange": 3,
+    "results": [
+      "win",
+      "win",
+      "loss",
+      "win",
+      "loss"
+    ],
+    "wins": 3,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 9702,
+    "at": "2026-09-21T12:46:03.421Z"
+  },
+  {
+    "id": 9590,
+    "ranked": false,
+    "opponentId": 104,
+    "opponent": "Peanut Butter",
+    "opponentElo": 1643,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9590,
+    "at": "2026-09-21T12:43:54.078Z"
+  },
+  {
+    "id": 9500,
+    "ranked": true,
+    "opponentId": 58,
+    "opponent": "FemPuppyboys",
+    "opponentElo": 1600,
+    "eloChange": 23,
+    "results": [
+      "loss",
+      "win",
+      "win",
+      "win",
+      "win"
+    ],
+    "wins": 4,
+    "losses": 1,
+    "outcome": "win",
+    "replayId": 9500,
+    "at": "2026-09-21T12:42:48.940Z"
+  },
+  {
+    "id": 9474,
+    "ranked": true,
+    "opponentId": 201,
+    "opponent": "NeungzAI",
+    "opponentElo": 1620,
+    "eloChange": 7,
+    "results": [
+      "win",
+      "win",
+      "loss",
+      "win",
+      "loss"
+    ],
+    "wins": 3,
+    "losses": 2,
+    "outcome": "win",
+    "replayId": 9474,
+    "at": "2026-09-21T12:40:27.732Z"
+  },
+  {
+    "id": 9397,
+    "ranked": false,
+    "opponentId": 456,
+    "opponent": "😹",
+    "opponentElo": 1632,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9397,
+    "at": "2026-09-21T12:36:45.120Z"
+  },
+  {
+    "id": 9399,
+    "ranked": false,
+    "opponentId": 107,
+    "opponent": "two birds one stone",
+    "opponentElo": 1622,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9399,
+    "at": "2026-09-21T12:36:41.185Z"
+  },
+  {
+    "id": 9394,
+    "ranked": false,
+    "opponentId": 332,
+    "opponent": "Kabyle Warriors",
+    "opponentElo": 1655,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9394,
+    "at": "2026-09-21T12:36:36.743Z"
+  },
+  {
+    "id": 9396,
+    "ranked": false,
+    "opponentId": 249,
+    "opponent": "Team SKKU",
+    "opponentElo": 1786,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9396,
+    "at": "2026-09-21T12:36:29.769Z"
+  },
+  {
+    "id": 9398,
+    "ranked": false,
+    "opponentId": 280,
+    "opponent": "SHINK AI 6500",
+    "opponentElo": 1833,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9398,
+    "at": "2026-09-21T12:36:26.712Z"
+  },
+  {
+    "id": 9393,
+    "ranked": false,
+    "opponentId": 19,
+    "opponent": "test4",
+    "opponentElo": 1678,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9393,
+    "at": "2026-09-21T12:36:20.591Z"
+  },
+  {
+    "id": 9395,
+    "ranked": false,
+    "opponentId": 419,
+    "opponent": "vom",
+    "opponentElo": 1631,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9395,
+    "at": "2026-09-21T12:36:16.771Z"
+  },
+  {
+    "id": 9354,
+    "ranked": true,
+    "opponentId": 417,
+    "opponent": "Matcha Latte",
+    "opponentElo": 1606,
+    "eloChange": -38,
+    "results": [
+      "loss",
+      "loss",
+      "loss",
+      "loss",
+      "win"
+    ],
+    "wins": 1,
+    "losses": 4,
+    "outcome": "loss",
+    "replayId": 9354,
+    "at": "2026-09-21T12:36:08.952Z"
+  },
+  {
+    "id": 9165,
+    "ranked": false,
+    "opponentId": 64,
+    "opponent": "uoa",
+    "opponentElo": 1662,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9165,
+    "at": "2026-09-21T12:26:32.384Z"
+  },
+  {
+    "id": 9170,
+    "ranked": false,
+    "opponentId": 213,
+    "opponent": "Sponge(Albert and Bob)",
+    "opponentElo": 1763,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9170,
+    "at": "2026-09-21T12:25:53.398Z"
+  },
+  {
+    "id": 9168,
+    "ranked": false,
+    "opponentId": 485,
+    "opponent": "err404",
+    "opponentElo": 1651,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9168,
+    "at": "2026-09-21T12:25:00.517Z"
+  },
+  {
+    "id": 9163,
+    "ranked": false,
+    "opponentId": 319,
+    "opponent": "kfcvme50",
+    "opponentElo": 1675,
+    "eloChange": 0,
+    "results": [
+      "win"
+    ],
+    "wins": 1,
+    "losses": 0,
+    "outcome": "win",
+    "replayId": 9163,
+    "at": "2026-09-21T12:24:59.448Z"
+  },
+  {
+    "id": 9164,
+    "ranked": false,
+    "opponentId": 116,
+    "opponent": "Spearhead Capital",
+    "opponentElo": 1723,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9164,
+    "at": "2026-09-21T12:24:50.331Z"
+  },
+  {
+    "id": 9167,
+    "ranked": false,
+    "opponentId": 119,
+    "opponent": "Lon Co Kiri",
+    "opponentElo": 1762,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9167,
+    "at": "2026-09-21T12:24:49.971Z"
+  },
+  {
+    "id": 9162,
+    "ranked": false,
+    "opponentId": 82,
+    "opponent": "free trip to sydney pls",
+    "opponentElo": 1717,
+    "eloChange": 0,
+    "results": [
+      "loss"
+    ],
+    "wins": 0,
+    "losses": 1,
+    "outcome": "loss",
+    "replayId": 9162,
+    "at": "2026-09-21T12:24:48.166Z"
+  },
+  {
+    "id": 9103,
+    "ranked": true,
+    "opponentId": 119,
+    "opponent": "Lon Co Kiri",
+    "opponentElo": 1739,
+    "eloChange": -23,
+    "results": [
+      "loss",
+      "win",
+      "loss",
+      "loss",
+      "loss"
+    ],
+    "wins": 1,
+    "losses": 4,
+    "outcome": "loss",
+    "replayId": 9103,
+    "at": "2026-09-21T12:20:13.950Z"
+  }
+]

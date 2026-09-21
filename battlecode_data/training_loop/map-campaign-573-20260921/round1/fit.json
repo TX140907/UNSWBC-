@@ -1,0 +1,141 @@
+{
+  "proposals": {
+    "arena": {
+      "plan": "Arena",
+      "body": "p.continuation=0.35; p.reserve=8;",
+      "evidence": [
+        {
+          "id": 10581,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8461,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8241,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "Colosseum": {
+      "plan": "Colosseum",
+      "body": "p.continuation=0.35; p.reserve=8;",
+      "evidence": [
+        {
+          "id": 9162,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 9394,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 10580,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8574,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8182,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "default_small": {
+      "plan": "DefaultSmall",
+      "body": "p.continuation=0.35; p.reserve=8;",
+      "evidence": [
+        {
+          "id": 9167,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 9398,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 9107,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8576,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "default": {
+      "plan": "Default",
+      "body": "p.expand=true; p.cautiousChild=true; p.splitLength=6; p.target=16; p.reserve=8; p.stop=260;",
+      "evidence": [
+        {
+          "id": 9106,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8944,
+          "reason": "roundLimit"
+        },
+        {
+          "id": 8843,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "trophy": {
+      "plan": "Trophy",
+      "body": "p.expand=true; p.cautiousChild=true; p.splitLength=6; p.target=16; p.reserve=8; p.stop=260;",
+      "evidence": [
+        {
+          "id": 9393,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 9776,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 10579,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 9103,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8841,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8573,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "schooltime": {
+      "plan": "Schooltime",
+      "body": "p.continuation=0.35; p.reserve=8;",
+      "evidence": [
+        {
+          "id": 9105,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 8860,
+          "reason": "roundLimit"
+        },
+        {
+          "id": 8840,
+          "reason": "teamEliminated"
+        }
+      ]
+    }
+  },
+  "method": "Map-local policy hypotheses from own losses",
+  "abstained": [
+    "Big Empty/help: ambiguous early observations",
+    "Queen variants: shared observable identity"
+  ]
+}

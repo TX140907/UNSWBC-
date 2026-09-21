@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9393,
+    "teamAId": 128,
+    "teamBId": 19,
+    "submissionAId": 641,
+    "submissionBId": 443,
+    "mapId": 11,
+    "ranked": false,
+    "skinA": "Jiaolong",
+    "skinB": "Vatulele Prawn",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 153,
+    "replayKey": "replays/9393.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "ec31c94e-8432-4a43-a714-9bfca4fdadb7",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:36:11.914Z",
+    "startedAt": "2026-09-21T12:36:12.718Z",
+    "completedAt": "2026-09-21T12:36:20.591Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:36:12.718Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Trophy",
+  "teamAName": "An IQ too high?",
+  "teamBName": "test4",
+  "teamAElo": 1638,
+  "teamBElo": 1678,
+  "games": [
+    {
+      "id": 9393,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

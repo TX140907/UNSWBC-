@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 119,
+  "submissionAId": 573,
+  "submissionBId": 498,
+  "mapId": 1,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "00459478-8981-4306-9a53-9ba4338e125f",
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Lon Co Kiri",
+  "match_id": 9104,
+  "group_id": "series:00459478-8981-4306-9a53-9ba4338e125f",
+  "sha256": "318877cc2910b5a5efdebf2dd210f406704f9f7b67d17f1877b56c7aa95af381",
+  "source_url": "https://game.battlecode.au/visualiser?match=9104",
+  "validated": true
+}

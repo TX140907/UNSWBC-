@@ -1,0 +1,38 @@
+{
+  "id": 5713,
+  "teamAId": 400,
+  "teamBId": 128,
+  "submissionAId": 142,
+  "submissionBId": 372,
+  "mapId": 1,
+  "ranked": true,
+  "status": "completed",
+  "winner": "b",
+  "seriesId": "8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+  "mapName": "Colosseum",
+  "teamAName": "All Roads Lead to Makuhari",
+  "teamBName": "An IQ too high?",
+  "match_id": 5713,
+  "group_id": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+  "source_url": "https://game.battlecode.au/visualiser?match=5713",
+  "completed_utc": "2026-09-21T09:31:27.831000+00:00",
+  "sha256": "0237f18dba20f1aaf492635548aef855578afd72ce17dbdd8d021cfb56d15c4b",
+  "downloaded_utc": "2026-09-21T10:10:35.046165+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "B",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    },
+    "B": {
+      "dragon_count": 31,
+      "longest_dragon": 7,
+      "total_length": 102
+    }
+  }
+}

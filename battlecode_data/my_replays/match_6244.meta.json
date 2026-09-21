@@ -1,0 +1,38 @@
+{
+  "id": 6244,
+  "teamAId": 128,
+  "teamBId": 370,
+  "submissionAId": 372,
+  "submissionBId": 453,
+  "mapId": 7,
+  "ranked": true,
+  "status": "completed",
+  "winner": "a",
+  "seriesId": "a8142634-010e-4899-8234-97c0fbf56063",
+  "mapName": "Queen Of Spades",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Quant Merch Trader",
+  "match_id": 6244,
+  "group_id": "series:a8142634-010e-4899-8234-97c0fbf56063",
+  "source_url": "https://game.battlecode.au/visualiser?match=6244",
+  "completed_utc": "2026-09-21T10:00:13.662000+00:00",
+  "sha256": "506d8a3a9ea6444ae03fca5ae4b24210924f74e22372a232f1647d8210149d81",
+  "downloaded_utc": "2026-09-21T10:09:16.649875+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "A",
+    "end_reason": "roundLimit",
+    "A": {
+      "dragon_count": 4,
+      "longest_dragon": 65,
+      "total_length": 104
+    },
+    "B": {
+      "dragon_count": 18,
+      "longest_dragon": 11,
+      "total_length": 81
+    }
+  }
+}

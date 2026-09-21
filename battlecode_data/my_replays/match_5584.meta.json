@@ -1,0 +1,38 @@
+{
+  "id": 5584,
+  "teamAId": 400,
+  "teamBId": 128,
+  "submissionAId": 142,
+  "submissionBId": 372,
+  "mapId": 9,
+  "ranked": true,
+  "status": "completed",
+  "winner": "a",
+  "seriesId": "5ee241a9-bf05-45bd-9543-bd036e4c008a",
+  "mapName": "Schooltime",
+  "teamAName": "All Roads Lead to Makuhari",
+  "teamBName": "An IQ too high?",
+  "match_id": 5584,
+  "group_id": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+  "source_url": "https://game.battlecode.au/visualiser?match=5584",
+  "completed_utc": "2026-09-21T09:26:43.779000+00:00",
+  "sha256": "1e7fa07666e3f94378d74c2df6d61137df8a204d834dc688f18b1510949f7782",
+  "downloaded_utc": "2026-09-21T10:10:40.745079+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "A",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 64,
+      "longest_dragon": 8,
+      "total_length": 205
+    },
+    "B": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 264,
+  "submissionAId": 649,
+  "submissionBId": 634,
+  "mapId": 11,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "18f6429a-87c6-4e1d-9d41-b2d54b8153b7",
+  "mapName": "Trophy",
+  "teamAName": "An IQ too high?",
+  "teamBName": "forgot to mention",
+  "match_id": 9776,
+  "group_id": "series:18f6429a-87c6-4e1d-9d41-b2d54b8153b7",
+  "sha256": "f3122d15a85697ddb56b225f38e303645b8919fdf13f25c3c0b05d0a8b53bcc3",
+  "source_url": "https://game.battlecode.au/visualiser?match=9776",
+  "validated": true
+}

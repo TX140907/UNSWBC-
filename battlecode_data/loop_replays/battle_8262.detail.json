@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 8262,
+    "teamAId": 352,
+    "teamBId": 128,
+    "submissionAId": 582,
+    "submissionBId": 573,
+    "mapId": 9,
+    "ranked": false,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 596,
+    "replayKey": "replays/8262.replay",
+    "requestedBy": "svWwH2NPZQIfTfKAiLBG7cktnaZv5PBa",
+    "seriesId": "7b1e1a1c-b31f-4328-a5f2-4ee4c6e31f9c",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T11:47:49.150Z",
+    "startedAt": "2026-09-21T11:47:50.488Z",
+    "completedAt": "2026-09-21T11:48:51.399Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T11:48:36.448Z",
+    "claimedBy": "95f1166baff8",
+    "log": null
+  },
+  "mapName": "Schooltime",
+  "teamAName": "HUST IT1",
+  "teamBName": "An IQ too high?",
+  "teamAElo": 1389,
+  "teamBElo": 1699,
+  "games": [
+    {
+      "id": 8256,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8257,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8258,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8259,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8260,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8261,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8262,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8263,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

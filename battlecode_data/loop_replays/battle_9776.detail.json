@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9776,
+    "teamAId": 128,
+    "teamBId": 264,
+    "submissionAId": 649,
+    "submissionBId": 634,
+    "mapId": 11,
+    "ranked": false,
+    "skinA": "Jiaolong",
+    "skinB": "Loch Ness",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 164,
+    "replayKey": "replays/9776.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "18f6429a-87c6-4e1d-9d41-b2d54b8153b7",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:47:47.005Z",
+    "startedAt": "2026-09-21T12:47:47.224Z",
+    "completedAt": "2026-09-21T12:47:53.055Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:47:51.736Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Trophy",
+  "teamAName": "An IQ too high?",
+  "teamBName": "forgot to mention",
+  "teamAElo": 1664,
+  "teamBElo": 1665,
+  "games": [
+    {
+      "id": 9776,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

@@ -1,0 +1,18 @@
+{
+  "teamAId": 352,
+  "teamBId": 128,
+  "submissionAId": 575,
+  "submissionBId": 573,
+  "mapId": 2,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "b48d6f9c-98b7-4b23-994d-553f3472886c",
+  "mapName": "Arena",
+  "teamAName": "HUST IT1",
+  "teamBName": "An IQ too high?",
+  "match_id": 8231,
+  "group_id": "series:b48d6f9c-98b7-4b23-994d-553f3472886c",
+  "sha256": "2a46010f5afe9033efe1dd713c039ae0a5f833c735394b5fd6f81df5e19fa2f3",
+  "source_url": "https://game.battlecode.au/visualiser?match=8231",
+  "validated": true
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "map": "arena",
+    "side": "A",
+    "result": "win",
+    "rounds": 450,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 89.397
+  },
+  {
+    "map": "arena",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 100.474
+  },
+  {
+    "map": "big_empty",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 120.001
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 116,
+  "submissionAId": 667,
+  "submissionBId": 564,
+  "mapId": 1,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "f965cbb9-163f-4f56-82ec-6641fe38bdcd",
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Spearhead Capital",
+  "match_id": 10207,
+  "group_id": "series:f965cbb9-163f-4f56-82ec-6641fe38bdcd",
+  "sha256": "6dab0d2b4962e1f3864f583c24bc47497f11fa8d5f348d296a8a1906adfe51a4",
+  "source_url": "https://game.battlecode.au/visualiser?match=10207",
+  "validated": true
+}

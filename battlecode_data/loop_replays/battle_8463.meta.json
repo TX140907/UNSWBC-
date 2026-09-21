@@ -1,0 +1,18 @@
+{
+  "teamAId": 133,
+  "teamBId": 128,
+  "submissionAId": 599,
+  "submissionBId": 573,
+  "mapId": 1,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "557f4821-87ea-489b-a605-e5c7ca802b01",
+  "mapName": "Colosseum",
+  "teamAName": "Jingling Munmin",
+  "teamBName": "An IQ too high?",
+  "match_id": 8463,
+  "group_id": "series:557f4821-87ea-489b-a605-e5c7ca802b01",
+  "sha256": "d4e2c25f5204e9a2c30c3e63913e16e94fe3cf7c8f3f7f05bbdb258cc5c9809c",
+  "source_url": "https://game.battlecode.au/visualiser?match=8463",
+  "validated": true
+}

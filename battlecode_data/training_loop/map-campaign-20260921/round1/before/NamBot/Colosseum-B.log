@@ -1,0 +1,9 @@
+loaded python vs c/c++
+running round 2/500 --  last: 788ms  eta: 6m33s  dragons: 1 vs 2
+round 36: bot 7 (team B) died: hit another dragon
+round 47: bot 13 (team B) died: hit another dragon
+running round 51/500 --  last: 49ms  eta: 35.2s  dragons: 1 vs 24
+round 50: bot 8 (team B) died: hit another dragon
+round 54: bot 0 (team A) died: hit itself
+team B wins after 55 rounds (by elimination) (6.4s)
+wrote replay: C:\Users\ACER\OneDrive\Desktop\UNSW Battlecode\UNSWBC-\battlecode_data\training_loop\map-campaign-20260921\round1\before\NamBot\Colosseum-B.replay

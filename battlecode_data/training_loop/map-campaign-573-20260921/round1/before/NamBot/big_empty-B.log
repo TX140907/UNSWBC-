@@ -1,0 +1,12 @@
+loaded python vs c/c++
+running round 2/500 --  last: 142ms  eta: 1m10s  dragons: 3 vs 3
+running round 51/500 --  last: 11ms  eta: 5.9s  dragons: 3 vs 3
+running round 101/500 --  last: 10ms  eta: 4.7s  dragons: 3 vs 3
+running round 151/500 --  last: 15ms  eta: 4.3s  dragons: 3 vs 3
+round 163: bot 4 (team A) died: hit itself
+running round 201/500 --  last: 9ms  eta: 3.7s  dragons: 2 vs 3
+round 208: bot 0 (team A) died: hit itself
+running round 251/500 --  last: 9ms  eta: 2.9s  dragons: 1 vs 3
+round 259: bot 2 (team A) died: hit itself
+team B wins after 260 rounds (by elimination) (3.4s)
+wrote replay: C:\Users\ACER\OneDrive\Desktop\UNSW Battlecode\UNSWBC-\battlecode_data\training_loop\map-campaign-573-20260921\round1\before\NamBot\big_empty-B.replay

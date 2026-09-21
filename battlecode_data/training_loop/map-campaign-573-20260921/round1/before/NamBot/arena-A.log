@@ -1,0 +1,19 @@
+loaded c/c++ vs python
+running round 2/500 --  last: 38ms  eta: 19.3s  dragons: 1 vs 1
+round 22: bot 10 (team A) died: hit itself
+round 23: bot 13 (team A) died: lost a head-to-head
+round 23: bot 17 (team A) died: lost a head-to-head
+round 25: bot 18 (team A) died: hit another dragon
+round 25: bot 19 (team A) died: hit another dragon
+round 29: bot 8 (team A) died: hit itself
+round 29: bot 27 (team A) died: hit another dragon
+round 30: bot 4 (team A) died: hit another dragon
+round 30: bot 11 (team A) died: hit another dragon
+round 30: bot 20 (team A) died: hit another dragon
+round 30: bot 21 (team A) died: hit a wall
+round 30: bot 9 (team A) died: lost a head-to-head
+round 30: bot 29 (team A) died: lost a head-to-head
+round 31: bot 24 (team A) died: lost a head-to-head
+round 31: bot 1 (team B) died: lost a head-to-head
+team A wins after 32 rounds (by elimination) (1.4s)
+wrote replay: C:\Users\ACER\OneDrive\Desktop\UNSW Battlecode\UNSWBC-\battlecode_data\training_loop\map-campaign-573-20260921\round1\before\NamBot\arena-A.replay

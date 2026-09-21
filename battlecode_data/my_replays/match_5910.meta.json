@@ -1,0 +1,38 @@
+{
+  "id": 5910,
+  "teamAId": 104,
+  "teamBId": 128,
+  "submissionAId": 445,
+  "submissionBId": 372,
+  "mapId": 7,
+  "ranked": true,
+  "status": "completed",
+  "winner": "a",
+  "seriesId": "9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+  "mapName": "Queen Of Spades",
+  "teamAName": "Peanut Butter",
+  "teamBName": "An IQ too high?",
+  "match_id": 5910,
+  "group_id": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+  "source_url": "https://game.battlecode.au/visualiser?match=5910",
+  "completed_utc": "2026-09-21T09:41:52.649000+00:00",
+  "sha256": "9061a70b918b8a151107a5957e3bf0296d8930c57ef26ec6c3bcfb1740a5a447",
+  "downloaded_utc": "2026-09-21T10:09:57.490953+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "A",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 28,
+      "longest_dragon": 4,
+      "total_length": 74
+    },
+    "B": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    }
+  }
+}

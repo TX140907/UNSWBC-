@@ -1,0 +1,18 @@
+{
+  "teamAId": 133,
+  "teamBId": 128,
+  "submissionAId": 599,
+  "submissionBId": 573,
+  "mapId": 7,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "557f4821-87ea-489b-a605-e5c7ca802b01",
+  "mapName": "Queen Of Spades",
+  "teamAName": "Jingling Munmin",
+  "teamBName": "An IQ too high?",
+  "match_id": 8466,
+  "group_id": "series:557f4821-87ea-489b-a605-e5c7ca802b01",
+  "sha256": "b38de78060c4ea4d289cfe7e01befaf962f38e80acf009678495f787e9aa6b11",
+  "source_url": "https://game.battlecode.au/visualiser?match=8466",
+  "validated": true
+}

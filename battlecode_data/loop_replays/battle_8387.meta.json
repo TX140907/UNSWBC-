@@ -1,0 +1,18 @@
+{
+  "teamAId": 133,
+  "teamBId": 128,
+  "submissionAId": 590,
+  "submissionBId": 573,
+  "mapId": 4,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "b11abe64-6135-4ef6-a248-ed573de4a0f4",
+  "mapName": "Default",
+  "teamAName": "Jingling Munmin",
+  "teamBName": "An IQ too high?",
+  "match_id": 8387,
+  "group_id": "series:b11abe64-6135-4ef6-a248-ed573de4a0f4",
+  "sha256": "edd3b6c65f5e6e271fc4896fdc4b671be641378fbe1af776da08cf3f5bbdc268",
+  "source_url": "https://game.battlecode.au/visualiser?match=8387",
+  "validated": true
+}

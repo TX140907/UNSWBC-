@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 419,
+  "submissionAId": 641,
+  "submissionBId": 312,
+  "mapId": 2,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "2d38f32a-1fff-4013-8768-099ba0728c0f",
+  "mapName": "Arena",
+  "teamAName": "An IQ too high?",
+  "teamBName": "vom",
+  "match_id": 9395,
+  "group_id": "series:2d38f32a-1fff-4013-8768-099ba0728c0f",
+  "sha256": "713b55c5c94c018bbb4e80fdefd22f1fc097f2507a586e9f212011d009893f8d",
+  "source_url": "https://game.battlecode.au/visualiser?match=9395",
+  "validated": true
+}

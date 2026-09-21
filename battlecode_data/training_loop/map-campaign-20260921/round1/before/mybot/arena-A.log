@@ -1,0 +1,426 @@
+loaded c/c++ vs c/c++
+running round 2/500 --  last: 206ms  eta: 1m42s  dragons: 1 vs 1
+round 13: bot 5 (team A) died: hit another dragon
+round 17: bot 11 (team A) died: hit another dragon
+round 19: bot 13 (team B) died: lost a head-to-head
+round 19: bot 16 (team A) died: lost a head-to-head
+round 20: bot 14 (team A) died: hit another dragon
+round 21: bot 10 (team B) died: hit itself
+round 21: bot 21 (team A) died: hit another dragon
+round 22: bot 17 (team A) died: hit itself
+round 22: bot 18 (team A) died: lost a head-to-head
+round 22: bot 23 (team A) died: lost a head-to-head
+round 24: bot 7 (team A) died: hit itself
+round 24: bot 15 (team B) died: hit another dragon
+round 24: bot 26 (team B) died: hit itself
+round 25: bot 25 (team A) died: hit another dragon
+round 25: bot 31 (team A) died: lost a head-to-head
+round 25: bot 33 (team A) died: lost a head-to-head
+round 27: bot 32 (team A) died: lost a head-to-head
+round 27: bot 9 (team A) died: lost a head-to-head
+round 27: bot 40 (team A) died: hit itself
+round 28: bot 41 (team A) died: lost a head-to-head
+round 28: bot 43 (team A) died: lost a head-to-head
+round 29: bot 2 (team A) died: hit another dragon
+round 29: bot 3 (team B) died: lost a head-to-head
+round 29: bot 48 (team B) died: lost a head-to-head
+round 30: bot 47 (team B) died: lost a head-to-head
+round 30: bot 45 (team B) died: lost a head-to-head
+round 31: bot 28 (team A) died: hit itself
+round 33: bot 35 (team A) died: lost a head-to-head
+round 33: bot 0 (team A) died: lost a head-to-head
+round 33: bot 12 (team A) died: hit another dragon
+round 34: bot 20 (team B) died: hit itself
+round 34: bot 54 (team B) died: hit another dragon
+round 35: bot 57 (team A) died: lost a head-to-head
+round 35: bot 50 (team A) died: lost a head-to-head
+round 35: bot 59 (team A) died: hit another dragon
+round 36: bot 27 (team A) died: hit another dragon
+round 36: bot 51 (team A) died: hit another dragon
+round 37: bot 49 (team A) died: hit itself
+round 37: bot 64 (team B) died: hit itself
+round 38: bot 1 (team B) died: lost a head-to-head
+round 38: bot 36 (team B) died: lost a head-to-head
+round 38: bot 37 (team A) died: hit another dragon
+round 38: bot 62 (team B) died: hit another dragon
+round 39: bot 66 (team A) died: lost a head-to-head
+round 39: bot 67 (team A) died: lost a head-to-head
+round 39: bot 39 (team B) died: lost a head-to-head
+round 39: bot 68 (team B) died: lost a head-to-head
+round 40: bot 52 (team B) died: lost a head-to-head
+round 40: bot 42 (team A) died: lost a head-to-head
+round 41: bot 29 (team B) died: lost a head-to-head
+round 41: bot 72 (team B) died: lost a head-to-head
+round 42: bot 44 (team A) died: lost a head-to-head
+round 42: bot 34 (team B) died: lost a head-to-head
+round 42: bot 53 (team A) died: lost a head-to-head
+round 42: bot 56 (team B) died: lost a head-to-head
+round 43: bot 19 (team A) died: lost a head-to-head
+round 43: bot 70 (team A) died: lost a head-to-head
+round 44: bot 83 (team A) died: lost a head-to-head
+round 44: bot 82 (team B) died: lost a head-to-head
+round 45: bot 24 (team A) died: hit another dragon
+round 45: bot 81 (team A) died: hit another dragon
+round 46: bot 69 (team A) died: hit itself
+round 47: bot 46 (team A) died: hit itself
+round 47: bot 93 (team B) died: lost a head-to-head
+round 47: bot 63 (team B) died: lost a head-to-head
+round 47: bot 77 (team B) died: hit a wall
+round 47: bot 74 (team B) died: lost a head-to-head
+round 47: bot 79 (team A) died: lost a head-to-head
+round 47: bot 92 (team A) died: lost a head-to-head
+round 47: bot 80 (team A) died: lost a head-to-head
+round 48: bot 86 (team A) died: hit itself
+round 49: bot 75 (team A) died: hit a wall
+running round 51/500 --  last: 483ms  eta: 1m11s  dragons: 18 vs 9
+round 50: bot 89 (team B) died: hit another dragon
+round 50: bot 94 (team A) died: hit another dragon
+round 50: bot 61 (team B) died: lost a head-to-head
+round 50: bot 97 (team B) died: lost a head-to-head
+round 50: bot 100 (team A) died: hit itself
+round 51: bot 87 (team A) died: hit another dragon
+round 53: bot 99 (team A) died: lost a head-to-head
+round 53: bot 58 (team A) died: lost a head-to-head
+round 54: bot 95 (team B) died: hit itself
+round 55: bot 110 (team B) died: hit another dragon
+round 56: bot 8 (team A) died: hit itself
+round 56: bot 4 (team A) died: lost a head-to-head
+round 56: bot 65 (team A) died: lost a head-to-head
+round 58: bot 6 (team B) died: hit a wall
+round 58: bot 101 (team A) died: hit another dragon
+round 59: bot 71 (team A) died: hit another dragon
+round 59: bot 73 (team B) died: hit itself
+round 59: bot 55 (team B) died: lost a head-to-head
+round 59: bot 113 (team B) died: lost a head-to-head
+round 60: bot 102 (team B) died: hit another dragon
+round 60: bot 103 (team A) died: hit itself
+round 60: bot 117 (team B) died: lost a head-to-head
+round 60: bot 119 (team A) died: lost a head-to-head
+round 61: bot 30 (team B) died: hit itself
+round 61: bot 85 (team A) died: hit another dragon
+round 61: bot 96 (team A) died: hit a wall
+round 61: bot 105 (team A) died: hit itself
+round 63: bot 84 (team A) died: lost a head-to-head
+round 63: bot 22 (team A) died: lost a head-to-head
+round 63: bot 115 (team A) died: hit another dragon
+round 63: bot 127 (team A) died: hit another dragon
+round 64: bot 116 (team A) died: hit another dragon
+round 65: bot 124 (team A) died: hit a wall
+round 66: bot 91 (team A) died: lost a head-to-head
+round 66: bot 130 (team A) died: lost a head-to-head
+round 67: bot 126 (team A) died: lost a head-to-head
+round 67: bot 111 (team A) died: lost a head-to-head
+round 68: bot 108 (team B) died: hit itself
+round 68: bot 118 (team A) died: hit itself
+round 70: bot 107 (team A) died: hit a wall
+round 70: bot 136 (team A) died: lost a head-to-head
+round 70: bot 129 (team A) died: lost a head-to-head
+round 71: bot 114 (team B) died: hit a wall
+round 71: bot 134 (team A) died: lost a head-to-head
+round 71: bot 135 (team A) died: lost a head-to-head
+round 71: bot 140 (team A) died: hit a wall
+round 72: bot 139 (team A) died: hit another dragon
+round 73: bot 144 (team A) died: hit itself
+round 74: bot 106 (team B) died: hit another dragon
+round 74: bot 138 (team A) died: lost a head-to-head
+round 74: bot 146 (team B) died: lost a head-to-head
+round 75: bot 141 (team A) died: hit itself
+round 76: bot 121 (team B) died: hit another dragon
+round 76: bot 104 (team A) died: lost a head-to-head
+round 76: bot 137 (team A) died: lost a head-to-head
+round 78: bot 60 (team A) died: hit a wall
+round 78: bot 120 (team A) died: hit another dragon
+round 78: bot 122 (team A) died: hit a wall
+round 78: bot 151 (team A) died: hit a wall
+round 79: bot 78 (team A) died: lost a head-to-head
+round 79: bot 157 (team A) died: lost a head-to-head
+round 80: bot 153 (team B) died: lost a head-to-head
+round 80: bot 90 (team A) died: lost a head-to-head
+round 80: bot 154 (team A) died: hit another dragon
+round 81: bot 150 (team A) died: hit another dragon
+round 82: bot 142 (team A) died: hit another dragon
+round 82: bot 163 (team A) died: hit another dragon
+round 83: bot 76 (team A) died: hit itself
+round 83: bot 133 (team A) died: hit a wall
+round 84: bot 168 (team A) died: hit itself
+round 85: bot 162 (team A) died: lost a head-to-head
+round 85: bot 160 (team A) died: lost a head-to-head
+round 85: bot 171 (team A) died: hit a wall
+round 86: bot 38 (team A) died: hit a wall
+round 87: bot 123 (team A) died: hit itself
+round 88: bot 152 (team A) died: hit another dragon
+round 88: bot 172 (team B) died: hit itself
+round 88: bot 173 (team A) died: hit itself
+round 88: bot 177 (team A) died: hit itself
+round 90: bot 147 (team A) died: lost a head-to-head
+round 90: bot 109 (team A) died: lost a head-to-head
+round 90: bot 161 (team A) died: hit another dragon
+round 90: bot 88 (team B) died: lost a head-to-head
+round 90: bot 175 (team A) died: lost a head-to-head
+round 91: bot 159 (team A) died: lost a head-to-head
+round 91: bot 148 (team A) died: lost a head-to-head
+round 91: bot 156 (team A) died: lost a head-to-head
+round 91: bot 165 (team A) died: lost a head-to-head
+round 92: bot 143 (team B) died: hit another dragon
+round 93: bot 170 (team A) died: lost a head-to-head
+round 93: bot 98 (team A) died: lost a head-to-head
+round 93: bot 185 (team A) died: hit another dragon
+round 94: bot 112 (team A) died: hit itself
+round 94: bot 145 (team A) died: hit another dragon
+round 94: bot 190 (team A) died: hit another dragon
+round 96: bot 192 (team A) died: lost a head-to-head
+round 96: bot 182 (team A) died: lost a head-to-head
+round 97: bot 178 (team A) died: lost a head-to-head
+round 97: bot 125 (team A) died: lost a head-to-head
+round 97: bot 155 (team A) died: hit a wall
+round 97: bot 183 (team A) died: lost a head-to-head
+round 97: bot 180 (team A) died: lost a head-to-head
+round 97: bot 197 (team A) died: hit another dragon
+round 98: bot 131 (team B) died: hit a wall
+round 99: bot 176 (team A) died: hit a wall
+running round 101/500 --  last: 911ms  eta: 1m28s  dragons: 26 vs 2
+round 100: bot 193 (team A) died: lost a head-to-head
+round 100: bot 174 (team A) died: lost a head-to-head
+round 100: bot 188 (team A) died: hit a wall
+round 100: bot 205 (team A) died: hit another dragon
+round 101: bot 166 (team A) died: hit another dragon
+round 101: bot 167 (team A) died: hit another dragon
+round 101: bot 198 (team A) died: hit another dragon
+round 101: bot 203 (team A) died: hit itself
+round 101: bot 181 (team A) died: lost a head-to-head
+round 101: bot 207 (team B) died: lost a head-to-head
+round 102: bot 132 (team A) died: hit another dragon
+round 102: bot 179 (team A) died: lost a head-to-head
+round 102: bot 206 (team A) died: lost a head-to-head
+round 105: bot 195 (team A) died: hit another dragon
+round 105: bot 200 (team A) died: hit another dragon
+round 106: bot 215 (team A) died: lost a head-to-head
+round 106: bot 214 (team A) died: lost a head-to-head
+round 107: bot 158 (team A) died: hit another dragon
+round 107: bot 220 (team A) died: hit itself
+round 109: bot 223 (team A) died: lost a head-to-head
+round 109: bot 189 (team A) died: lost a head-to-head
+round 109: bot 194 (team A) died: hit another dragon
+round 109: bot 212 (team B) died: lost a head-to-head
+round 109: bot 209 (team A) died: lost a head-to-head
+round 110: bot 204 (team A) died: hit a wall
+round 110: bot 210 (team A) died: lost a head-to-head
+round 110: bot 227 (team A) died: lost a head-to-head
+round 111: bot 217 (team A) died: hit itself
+round 112: bot 184 (team B) died: lost a head-to-head
+round 112: bot 187 (team A) died: lost a head-to-head
+round 112: bot 201 (team A) died: lost a head-to-head
+round 112: bot 196 (team A) died: lost a head-to-head
+round 112: bot 230 (team A) died: hit another dragon
+round 113: bot 149 (team A) died: hit another dragon
+round 114: bot 213 (team A) died: hit another dragon
+round 115: bot 231 (team A) died: hit another dragon
+round 115: bot 240 (team A) died: hit another dragon
+round 116: bot 191 (team B) died: hit another dragon
+round 116: bot 234 (team A) died: hit another dragon
+round 118: bot 128 (team A) died: hit a wall
+round 118: bot 226 (team A) died: hit itself
+round 118: bot 241 (team A) died: lost a head-to-head
+round 118: bot 233 (team A) died: lost a head-to-head
+round 118: bot 236 (team A) died: hit another dragon
+round 118: bot 243 (team A) died: hit a wall
+round 118: bot 245 (team A) died: hit itself
+round 119: bot 249 (team A) died: lost a head-to-head
+round 119: bot 224 (team A) died: lost a head-to-head
+round 119: bot 250 (team A) died: hit itself
+round 121: bot 208 (team A) died: hit itself
+round 121: bot 169 (team A) died: lost a head-to-head
+round 121: bot 237 (team A) died: lost a head-to-head
+round 122: bot 199 (team A) died: hit itself
+round 123: bot 219 (team A) died: lost a head-to-head
+round 123: bot 164 (team A) died: lost a head-to-head
+round 123: bot 222 (team A) died: hit another dragon
+round 123: bot 247 (team B) died: hit a wall
+round 123: bot 258 (team A) died: hit itself
+round 124: bot 239 (team B) died: hit a wall
+round 124: bot 251 (team A) died: lost a head-to-head
+round 124: bot 254 (team A) died: lost a head-to-head
+round 124: bot 255 (team A) died: hit itself
+round 125: bot 242 (team A) died: hit another dragon
+round 126: bot 253 (team A) died: hit another dragon
+round 126: bot 259 (team A) died: hit a wall
+round 127: bot 229 (team A) died: lost a head-to-head
+round 127: bot 266 (team A) died: lost a head-to-head
+round 128: bot 263 (team A) died: hit itself
+round 128: bot 264 (team A) died: hit a wall
+round 128: bot 265 (team A) died: hit itself
+round 129: bot 232 (team A) died: hit another dragon
+round 130: bot 246 (team A) died: hit another dragon
+round 130: bot 272 (team A) died: hit another dragon
+round 131: bot 216 (team B) died: hit another dragon
+round 131: bot 260 (team A) died: hit another dragon
+round 131: bot 268 (team A) died: lost a head-to-head
+round 131: bot 276 (team A) died: lost a head-to-head
+round 132: bot 279 (team A) died: hit another dragon
+round 133: bot 271 (team B) died: hit another dragon
+round 134: bot 252 (team A) died: lost a head-to-head
+round 134: bot 202 (team A) died: lost a head-to-head
+round 135: bot 221 (team A) died: hit another dragon
+round 136: bot 278 (team A) died: lost a head-to-head
+round 136: bot 225 (team B) died: lost a head-to-head
+round 136: bot 285 (team A) died: lost a head-to-head
+round 136: bot 228 (team A) died: lost a head-to-head
+round 136: bot 267 (team A) died: hit another dragon
+round 137: bot 288 (team B) died: hit another dragon
+round 138: bot 261 (team B) died: lost a head-to-head
+round 138: bot 287 (team A) died: lost a head-to-head
+round 140: bot 211 (team A) died: hit another dragon
+round 141: bot 290 (team A) died: hit another dragon
+round 141: bot 292 (team A) died: hit another dragon
+round 143: bot 281 (team A) died: hit another dragon
+round 143: bot 257 (team A) died: lost a head-to-head
+round 143: bot 286 (team A) died: lost a head-to-head
+round 144: bot 270 (team A) died: hit another dragon
+round 144: bot 262 (team B) died: lost a head-to-head
+round 144: bot 283 (team A) died: lost a head-to-head
+round 145: bot 280 (team A) died: hit itself
+round 145: bot 186 (team A) died: lost a head-to-head
+round 145: bot 297 (team A) died: lost a head-to-head
+round 146: bot 248 (team A) died: lost a head-to-head
+round 146: bot 294 (team B) died: lost a head-to-head
+round 148: bot 256 (team B) died: hit another dragon
+round 148: bot 277 (team B) died: hit another dragon
+round 148: bot 295 (team B) died: hit itself
+round 148: bot 299 (team B) died: hit itself
+round 148: bot 303 (team A) died: hit another dragon
+round 149: bot 301 (team A) died: hit itself
+running round 151/500 --  last: 48ms  eta: 1m14s  dragons: 17 vs 7
+round 150: bot 275 (team A) died: lost a head-to-head
+round 150: bot 305 (team B) died: lost a head-to-head
+round 150: bot 306 (team A) died: lost a head-to-head
+round 150: bot 314 (team A) died: lost a head-to-head
+round 151: bot 289 (team A) died: lost a head-to-head
+round 151: bot 307 (team B) died: lost a head-to-head
+round 152: bot 291 (team A) died: hit another dragon
+round 154: bot 235 (team A) died: hit another dragon
+round 154: bot 310 (team A) died: lost a head-to-head
+round 154: bot 269 (team B) died: lost a head-to-head
+round 154: bot 293 (team B) died: hit another dragon
+round 154: bot 298 (team B) died: hit another dragon
+round 155: bot 311 (team A) died: hit another dragon
+round 156: bot 317 (team A) died: hit another dragon
+round 157: bot 327 (team A) died: hit another dragon
+round 158: bot 323 (team A) died: lost a head-to-head
+round 158: bot 273 (team A) died: lost a head-to-head
+round 159: bot 244 (team A) died: hit a wall
+round 159: bot 329 (team A) died: lost a head-to-head
+round 159: bot 315 (team A) died: lost a head-to-head
+round 160: bot 302 (team A) died: hit another dragon
+round 160: bot 330 (team A) died: hit itself
+round 161: bot 316 (team A) died: hit itself
+round 162: bot 321 (team A) died: hit itself
+round 162: bot 304 (team A) died: lost a head-to-head
+round 162: bot 336 (team A) died: lost a head-to-head
+round 163: bot 325 (team B) died: hit another dragon
+round 164: bot 296 (team A) died: hit a wall
+round 164: bot 319 (team A) died: hit another dragon
+round 164: bot 334 (team B) died: hit another dragon
+round 165: bot 326 (team B) died: hit another dragon
+round 166: bot 332 (team A) died: hit a wall
+round 166: bot 343 (team A) died: hit another dragon
+round 167: bot 284 (team B) died: hit itself
+round 167: bot 282 (team A) died: lost a head-to-head
+round 167: bot 309 (team A) died: lost a head-to-head
+round 168: bot 313 (team B) died: hit another dragon
+round 170: bot 348 (team A) died: lost a head-to-head
+round 170: bot 342 (team A) died: lost a head-to-head
+round 171: bot 346 (team A) died: hit itself
+round 173: bot 312 (team A) died: hit itself
+round 173: bot 318 (team B) died: lost a head-to-head
+round 173: bot 349 (team B) died: lost a head-to-head
+round 173: bot 352 (team A) died: hit itself
+round 174: bot 339 (team A) died: hit itself
+round 175: bot 335 (team A) died: hit a wall
+round 175: bot 345 (team A) died: hit itself
+round 176: bot 357 (team A) died: hit itself
+round 176: bot 360 (team A) died: hit a wall
+round 177: bot 347 (team A) died: lost a head-to-head
+round 177: bot 238 (team A) died: lost a head-to-head
+round 177: bot 363 (team A) died: hit another dragon
+round 178: bot 351 (team B) died: hit another dragon
+round 178: bot 355 (team A) died: hit a wall
+round 179: bot 331 (team A) died: lost a head-to-head
+round 179: bot 367 (team A) died: lost a head-to-head
+round 180: bot 337 (team A) died: hit another dragon
+round 180: bot 350 (team A) died: hit a wall
+round 180: bot 353 (team A) died: lost a head-to-head
+round 180: bot 370 (team A) died: lost a head-to-head
+round 182: bot 344 (team A) died: hit itself
+round 182: bot 364 (team A) died: hit another dragon
+round 182: bot 375 (team A) died: lost a head-to-head
+round 182: bot 369 (team A) died: lost a head-to-head
+round 183: bot 218 (team B) died: hit another dragon
+round 183: bot 354 (team A) died: hit another dragon
+round 184: bot 308 (team A) died: hit a wall
+round 184: bot 382 (team A) died: hit a wall
+round 185: bot 341 (team A) died: lost a head-to-head
+round 185: bot 361 (team A) died: lost a head-to-head
+round 185: bot 384 (team A) died: hit another dragon
+round 185: bot 385 (team B) died: hit itself
+round 186: bot 362 (team B) died: hit another dragon
+round 186: bot 388 (team A) died: hit another dragon
+round 187: bot 358 (team A) died: lost a head-to-head
+round 187: bot 328 (team A) died: lost a head-to-head
+round 187: bot 359 (team A) died: hit another dragon
+round 188: bot 371 (team A) died: hit another dragon
+round 188: bot 374 (team A) died: lost a head-to-head
+round 188: bot 381 (team A) died: lost a head-to-head
+round 189: bot 383 (team A) died: hit another dragon
+round 190: bot 366 (team A) died: hit another dragon
+round 190: bot 392 (team A) died: lost a head-to-head
+round 190: bot 387 (team A) died: lost a head-to-head
+round 190: bot 386 (team A) died: lost a head-to-head
+round 190: bot 389 (team A) died: lost a head-to-head
+round 192: bot 322 (team A) died: lost a head-to-head
+round 192: bot 320 (team A) died: lost a head-to-head
+round 192: bot 324 (team A) died: hit another dragon
+round 192: bot 397 (team A) died: lost a head-to-head
+round 192: bot 373 (team A) died: lost a head-to-head
+round 192: bot 338 (team A) died: lost a head-to-head
+round 192: bot 396 (team A) died: lost a head-to-head
+round 193: bot 368 (team B) died: lost a head-to-head
+round 193: bot 403 (team A) died: lost a head-to-head
+round 193: bot 404 (team A) died: hit itself
+round 194: bot 400 (team A) died: lost a head-to-head
+round 194: bot 394 (team A) died: lost a head-to-head
+round 194: bot 405 (team A) died: hit itself
+round 196: bot 333 (team A) died: hit a wall
+round 196: bot 340 (team A) died: hit another dragon
+round 196: bot 380 (team A) died: hit itself
+round 196: bot 406 (team A) died: hit another dragon
+round 197: bot 417 (team B) died: lost a head-to-head
+round 197: bot 407 (team B) died: lost a head-to-head
+round 198: bot 379 (team A) died: hit another dragon
+round 198: bot 413 (team A) died: hit another dragon
+round 199: bot 395 (team A) died: hit itself
+running round 201/500 --  last: 49ms  eta: 56.8s  dragons: 26 vs 1
+round 200: bot 412 (team A) died: lost a head-to-head
+round 200: bot 376 (team A) died: lost a head-to-head
+round 201: bot 410 (team A) died: hit another dragon
+round 201: bot 419 (team A) died: hit itself
+round 202: bot 424 (team A) died: hit another dragon
+round 202: bot 425 (team A) died: hit another dragon
+round 203: bot 300 (team A) died: hit itself
+round 203: bot 426 (team A) died: lost a head-to-head
+round 203: bot 416 (team A) died: lost a head-to-head
+round 206: bot 356 (team A) died: hit another dragon
+round 206: bot 377 (team A) died: hit itself
+round 206: bot 401 (team A) died: hit another dragon
+round 206: bot 431 (team A) died: hit another dragon
+round 207: bot 365 (team A) died: hit itself
+round 207: bot 433 (team A) died: hit a wall
+round 209: bot 411 (team A) died: hit a wall
+round 210: bot 420 (team A) died: hit another dragon
+round 210: bot 429 (team A) died: hit itself
+round 211: bot 378 (team A) died: hit a wall
+round 211: bot 399 (team B) died: hit itself
+round 211: bot 408 (team A) died: hit itself
+round 211: bot 439 (team A) died: lost a head-to-head
+round 211: bot 430 (team A) died: lost a head-to-head
+team A wins after 212 rounds (by elimination) (40.0s)
+wrote replay: C:\Users\ACER\OneDrive\Desktop\UNSW Battlecode\UNSWBC-\battlecode_data\training_loop\map-campaign-20260921\round1\before\mybot\arena-A.replay

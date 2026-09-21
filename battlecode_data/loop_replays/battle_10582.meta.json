@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 264,
+  "submissionAId": 573,
+  "submissionBId": 634,
+  "mapId": 9,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "fb3446ea-aca5-46ff-88fa-1dad06e428bd",
+  "mapName": "Schooltime",
+  "teamAName": "An IQ too high?",
+  "teamBName": "forgot to mention",
+  "match_id": 10582,
+  "group_id": "series:fb3446ea-aca5-46ff-88fa-1dad06e428bd",
+  "sha256": "f8c90beba1b3ab0dc031a5daac213d3421a2c2baaf46434984d583a75803ca4a",
+  "source_url": "https://game.battlecode.au/visualiser?match=10582",
+  "validated": true
+}

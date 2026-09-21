@@ -1,0 +1,119 @@
+[
+  {
+    "map": "arena",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 51.818
+  },
+  {
+    "map": "arena",
+    "side": "B",
+    "result": "win",
+    "rounds": 213,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 38.812
+  },
+  {
+    "map": "big_empty",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 142.316
+  },
+  {
+    "map": "big_empty",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 179.365
+  },
+  {
+    "map": "Colosseum",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 61.053
+  },
+  {
+    "map": "Colosseum",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 72.819
+  },
+  {
+    "map": "default",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 51.715
+  },
+  {
+    "map": "default",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 64.992
+  },
+  {
+    "map": "default_small",
+    "side": "A",
+    "result": "loss",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 88.032
+  },
+  {
+    "map": "default_small",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 36.395
+  },
+  {
+    "map": "help",
+    "side": "A",
+    "result": "loss",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 406.251
+  },
+  {
+    "map": "help",
+    "side": "B",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 338.15
+  },
+  {
+    "map": "queen_of_spades",
+    "side": "A",
+    "result": "win",
+    "rounds": 500,
+    "returncode": 0,
+    "timed_out": false,
+    "seconds": 26.175
+  }
+]

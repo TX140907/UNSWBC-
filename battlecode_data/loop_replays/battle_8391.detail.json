@@ -1,0 +1,77 @@
+{
+  "match": {
+    "id": 8391,
+    "teamAId": 133,
+    "teamBId": 128,
+    "submissionAId": 590,
+    "submissionBId": 573,
+    "mapId": 11,
+    "ranked": false,
+    "skinA": "Vatulele Prawn",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 6,
+    "replayKey": "replays/8391.replay",
+    "requestedBy": "SVRpuyxIYpnwswjH0umIHAgx7qwQZPxz",
+    "seriesId": "b11abe64-6135-4ef6-a248-ed573de4a0f4",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T11:50:57.729Z",
+    "startedAt": "2026-09-21T11:50:58.597Z",
+    "completedAt": "2026-09-21T11:51:00.764Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T11:50:58.597Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Trophy",
+  "teamAName": "Jingling Munmin",
+  "teamBName": "An IQ too high?",
+  "teamAElo": 1507,
+  "teamBElo": 1699,
+  "games": [
+    {
+      "id": 8384,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8385,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8386,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8387,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8388,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8389,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8390,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 8391,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

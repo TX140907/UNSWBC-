@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 82,
+  "submissionAId": 632,
+  "submissionBId": 380,
+  "mapId": 1,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "ec86246b-1d38-4187-be62-c48694312260",
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "free trip to sydney pls",
+  "match_id": 9162,
+  "group_id": "series:ec86246b-1d38-4187-be62-c48694312260",
+  "sha256": "68a2d0d83095bc2ebcc94fbfe4ea55e8d08aecef677e092e78477a68cc7e5724",
+  "source_url": "https://game.battlecode.au/visualiser?match=9162",
+  "validated": true
+}

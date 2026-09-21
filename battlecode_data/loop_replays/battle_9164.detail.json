@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9164,
+    "teamAId": 128,
+    "teamBId": 116,
+    "submissionAId": 632,
+    "submissionBId": 564,
+    "mapId": 3,
+    "ranked": false,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 441,
+    "replayKey": "replays/9164.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "a2f39b56-7128-4e81-9e6b-ee772fbd8db2",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:24:45.216Z",
+    "startedAt": "2026-09-21T12:24:46.105Z",
+    "completedAt": "2026-09-21T12:24:50.331Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:24:46.105Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Big Empty",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Spearhead Capital",
+  "teamAElo": 1676,
+  "teamBElo": 1723,
+  "games": [
+    {
+      "id": 9164,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

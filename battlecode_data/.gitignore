@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+replays/
+dataset*.jsonl*
+move_policy.json
+*.part
+loop_replays/*.replay
+training_loop/**/*.exe
+training_loop/**/*.replay
+training_loop/sample_cache/
+experiments/

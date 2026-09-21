@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9590,
+    "teamAId": 128,
+    "teamBId": 104,
+    "submissionAId": 649,
+    "submissionBId": 589,
+    "mapId": 9,
+    "ranked": false,
+    "skinA": "Jiaolong",
+    "skinB": "Vatulele Prawn",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 101,
+    "scoresB": 300,
+    "replayKey": "replays/9590.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "fe6a5137-9d42-4c15-b807-b7d2c4719a6b",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:42:54.780Z",
+    "startedAt": "2026-09-21T12:42:54.813Z",
+    "completedAt": "2026-09-21T12:43:54.078Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:43:44.240Z",
+    "claimedBy": "8b9001c90610",
+    "log": null
+  },
+  "mapName": "Schooltime",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Peanut Butter",
+  "teamAElo": 1664,
+  "teamBElo": 1643,
+  "games": [
+    {
+      "id": 9590,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

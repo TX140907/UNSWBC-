@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9163,
+    "teamAId": 128,
+    "teamBId": 319,
+    "submissionAId": 632,
+    "submissionBId": 430,
+    "mapId": 2,
+    "ranked": false,
+    "skinA": "Jiaolong",
+    "skinB": "Vatulele Prawn",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 63,
+    "scoresB": 0,
+    "replayKey": "replays/9163.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "b72cb903-e826-4a78-9a78-5a45b19b55d6",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:24:43.892Z",
+    "startedAt": "2026-09-21T12:24:43.961Z",
+    "completedAt": "2026-09-21T12:24:59.448Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:24:51.950Z",
+    "claimedBy": "95f1166baff8",
+    "log": null
+  },
+  "mapName": "Arena",
+  "teamAName": "An IQ too high?",
+  "teamBName": "kfcvme50",
+  "teamAElo": 1676,
+  "teamBElo": 1675,
+  "games": [
+    {
+      "id": 9163,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

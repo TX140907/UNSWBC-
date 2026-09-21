@@ -1,0 +1,41 @@
+{
+  "active_submission": 649,
+  "accepted_games": 20,
+  "unique_games": 20,
+  "own_noValidAction_deaths": 0,
+  "source_sha256": "a763514a66ef4635510d14b7eaa7df99393d7a28eb6fff7e58f348fcdc50989b",
+  "results": {
+    "win": 10,
+    "loss": 10,
+    "draw": 0
+  },
+  "per_round": [
+    {
+      "round": 1,
+      "submission": 632,
+      "results": {
+        "win": 4,
+        "loss": 3,
+        "draw": 0
+      }
+    },
+    {
+      "round": 2,
+      "submission": 641,
+      "results": {
+        "win": 3,
+        "loss": 4,
+        "draw": 0
+      }
+    },
+    {
+      "round": 3,
+      "submission": 649,
+      "results": {
+        "win": 3,
+        "loss": 3,
+        "draw": 0
+      }
+    }
+  ]
+}

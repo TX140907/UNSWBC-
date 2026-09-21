@@ -1,0 +1,38 @@
+{
+  "id": 5585,
+  "teamAId": 400,
+  "teamBId": 128,
+  "submissionAId": 142,
+  "submissionBId": 372,
+  "mapId": 11,
+  "ranked": true,
+  "status": "completed",
+  "winner": "a",
+  "seriesId": "5ee241a9-bf05-45bd-9543-bd036e4c008a",
+  "mapName": "Trophy",
+  "teamAName": "All Roads Lead to Makuhari",
+  "teamBName": "An IQ too high?",
+  "match_id": 5585,
+  "group_id": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+  "source_url": "https://game.battlecode.au/visualiser?match=5585",
+  "completed_utc": "2026-09-21T09:26:03.423000+00:00",
+  "sha256": "a030f5edff0f20bb1631365abe310ebed1b2af7d7db7ce234e56fc1f2b8a8653",
+  "downloaded_utc": "2026-09-21T10:10:44.240769+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "A",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 62,
+      "longest_dragon": 3,
+      "total_length": 140
+    },
+    "B": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 64,
+  "submissionAId": 632,
+  "submissionBId": 620,
+  "mapId": 4,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "5667486b-5c46-4c0c-ab94-bb185f70d9fd",
+  "mapName": "Default",
+  "teamAName": "An IQ too high?",
+  "teamBName": "uoa",
+  "match_id": 9165,
+  "group_id": "series:5667486b-5c46-4c0c-ab94-bb185f70d9fd",
+  "sha256": "5ca104b6f274dad6f993a0b40273f2a68d14de23bf9a2c7b124d9cfbe40d0407",
+  "source_url": "https://game.battlecode.au/visualiser?match=9165",
+  "validated": true
+}

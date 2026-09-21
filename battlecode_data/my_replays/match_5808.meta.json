@@ -1,0 +1,38 @@
+{
+  "id": 5808,
+  "teamAId": 128,
+  "teamBId": 104,
+  "submissionAId": 372,
+  "submissionBId": 431,
+  "mapId": 1,
+  "ranked": false,
+  "status": "completed",
+  "winner": "b",
+  "seriesId": "8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Peanut Butter",
+  "match_id": 5808,
+  "group_id": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+  "source_url": "https://game.battlecode.au/visualiser?match=5808",
+  "completed_utc": "2026-09-21T09:36:13.828000+00:00",
+  "sha256": "bed8c8d1da6076f139462f7a76af27b5cead944b8a6b968334b0b2ad37ae858b",
+  "downloaded_utc": "2026-09-21T10:10:06.435515+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "B",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    },
+    "B": {
+      "dragon_count": 26,
+      "longest_dragon": 7,
+      "total_length": 92
+    }
+  }
+}

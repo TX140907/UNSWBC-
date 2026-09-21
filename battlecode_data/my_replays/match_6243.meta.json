@@ -1,0 +1,38 @@
+{
+  "id": 6243,
+  "teamAId": 128,
+  "teamBId": 370,
+  "submissionAId": 372,
+  "submissionBId": 453,
+  "mapId": 1,
+  "ranked": true,
+  "status": "completed",
+  "winner": "a",
+  "seriesId": "a8142634-010e-4899-8234-97c0fbf56063",
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Quant Merch Trader",
+  "match_id": 6243,
+  "group_id": "series:a8142634-010e-4899-8234-97c0fbf56063",
+  "source_url": "https://game.battlecode.au/visualiser?match=6243",
+  "completed_utc": "2026-09-21T10:00:11.265000+00:00",
+  "sha256": "2b0944f89642213777a893a07f5de2cf59b8d55fc83604cef28eeb1e6478ae66",
+  "downloaded_utc": "2026-09-21T10:09:13.406773+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "A",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 32,
+      "longest_dragon": 7,
+      "total_length": 121
+    },
+    "B": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    }
+  }
+}

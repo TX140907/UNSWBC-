@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 116,
+  "submissionAId": 667,
+  "submissionBId": 564,
+  "mapId": 7,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "f965cbb9-163f-4f56-82ec-6641fe38bdcd",
+  "mapName": "Queen Of Spades",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Spearhead Capital",
+  "match_id": 10209,
+  "group_id": "series:f965cbb9-163f-4f56-82ec-6641fe38bdcd",
+  "sha256": "b4e8a942b0d6121af1a9831aef736ece83f7ae798b19b8ddacb5e9487e59db28",
+  "source_url": "https://game.battlecode.au/visualiser?match=10209",
+  "validated": true
+}

@@ -1,0 +1,5 @@
+loaded c/c++ vs python
+running round 2/500 --  last: 50ms  eta: 25.2s  dragons: 2 vs 1
+round 37: bot 1 (team B) died: hit itself
+team A wins after 38 rounds (by elimination) (1.6s)
+wrote replay: C:\Users\ACER\OneDrive\Desktop\UNSW Battlecode\UNSWBC-\battlecode_data\training_loop\map-campaign-573-20260921\round1\before\NamBot\Colosseum-A.replay

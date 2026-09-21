@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 201,
+  "submissionAId": 649,
+  "submissionBId": 619,
+  "mapId": 2,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "771d6ded-ccdc-4611-8bae-3c6cd653b42a",
+  "mapName": "Arena",
+  "teamAName": "An IQ too high?",
+  "teamBName": "NeungzAI",
+  "match_id": 9778,
+  "group_id": "series:771d6ded-ccdc-4611-8bae-3c6cd653b42a",
+  "sha256": "49117b132dc3988797540423972a415b35e1d6e8613aae8dc3a61d6dbf1a652f",
+  "source_url": "https://game.battlecode.au/visualiser?match=9778",
+  "validated": true
+}

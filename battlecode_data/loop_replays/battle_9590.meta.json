@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 104,
+  "submissionAId": 649,
+  "submissionBId": 589,
+  "mapId": 9,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "fe6a5137-9d42-4c15-b807-b7d2c4719a6b",
+  "mapName": "Schooltime",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Peanut Butter",
+  "match_id": 9590,
+  "group_id": "series:fe6a5137-9d42-4c15-b807-b7d2c4719a6b",
+  "sha256": "17f0526b214f047216177169136a2c82b944d7bb293f6c083ecfb1dda6bc8b01",
+  "source_url": "https://game.battlecode.au/visualiser?match=9590",
+  "validated": true
+}

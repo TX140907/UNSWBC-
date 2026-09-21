@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 230,
+  "submissionAId": 573,
+  "submissionBId": 595,
+  "mapId": 7,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "cd2a6827-323f-432b-a441-e54682f7d68e",
+  "mapName": "Queen Of Spades",
+  "teamAName": "An IQ too high?",
+  "teamBName": "my cactus died so now i’m a depressed programmer",
+  "match_id": 8475,
+  "group_id": "series:cd2a6827-323f-432b-a441-e54682f7d68e",
+  "sha256": "16f7a26f6d327d16fdbc96c3aa9403cc84cd7c4fe35ed23fa9802ab02dbcc305",
+  "source_url": "https://game.battlecode.au/visualiser?match=8475",
+  "validated": true
+}

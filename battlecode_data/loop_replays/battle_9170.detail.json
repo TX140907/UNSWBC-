@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9170,
+    "teamAId": 128,
+    "teamBId": 213,
+    "submissionAId": 632,
+    "submissionBId": 427,
+    "mapId": 9,
+    "ranked": false,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 153,
+    "scoresB": 289,
+    "replayKey": "replays/9170.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "3910194c-2d76-4ede-a154-3ea8664f38fa",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:24:50.365Z",
+    "startedAt": "2026-09-21T12:24:52.108Z",
+    "completedAt": "2026-09-21T12:25:53.398Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:25:51.674Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Schooltime",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Sponge(Albert and Bob)",
+  "teamAElo": 1676,
+  "teamBElo": 1763,
+  "games": [
+    {
+      "id": 9170,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

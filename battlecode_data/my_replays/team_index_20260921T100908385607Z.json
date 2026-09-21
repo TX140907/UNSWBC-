@@ -1,0 +1,155 @@
+{
+  "team_id": 128,
+  "source": "https://game.battlecode.au/teams/128",
+  "series": [
+    "https://game.battlecode.au/battles/6243",
+    "https://game.battlecode.au/battles/5982",
+    "https://game.battlecode.au/battles/5907",
+    "https://game.battlecode.au/battles/5808",
+    "https://game.battlecode.au/battles/5709",
+    "https://game.battlecode.au/battles/5584"
+  ],
+  "matches": [
+    {
+      "match_id": 6243,
+      "group_id": "series:a8142634-010e-4899-8234-97c0fbf56063",
+      "fresh": true
+    },
+    {
+      "match_id": 6244,
+      "group_id": "series:a8142634-010e-4899-8234-97c0fbf56063",
+      "fresh": true
+    },
+    {
+      "match_id": 6245,
+      "group_id": "series:a8142634-010e-4899-8234-97c0fbf56063",
+      "fresh": true
+    },
+    {
+      "match_id": 6246,
+      "group_id": "series:a8142634-010e-4899-8234-97c0fbf56063",
+      "fresh": true
+    },
+    {
+      "match_id": 6247,
+      "group_id": "series:a8142634-010e-4899-8234-97c0fbf56063",
+      "fresh": true
+    },
+    {
+      "match_id": 5982,
+      "group_id": "series:0f2eb809-a66c-4d40-98dd-a72b77ff30f1",
+      "fresh": true
+    },
+    {
+      "match_id": 5983,
+      "group_id": "series:0f2eb809-a66c-4d40-98dd-a72b77ff30f1",
+      "fresh": true
+    },
+    {
+      "match_id": 5984,
+      "group_id": "series:0f2eb809-a66c-4d40-98dd-a72b77ff30f1",
+      "fresh": true
+    },
+    {
+      "match_id": 5985,
+      "group_id": "series:0f2eb809-a66c-4d40-98dd-a72b77ff30f1",
+      "fresh": true
+    },
+    {
+      "match_id": 5907,
+      "group_id": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+      "fresh": true
+    },
+    {
+      "match_id": 5908,
+      "group_id": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+      "fresh": true
+    },
+    {
+      "match_id": 5909,
+      "group_id": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+      "fresh": true
+    },
+    {
+      "match_id": 5910,
+      "group_id": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+      "fresh": true
+    },
+    {
+      "match_id": 5911,
+      "group_id": "series:9cc6bd9c-036f-40e4-a9b0-7a4523c8d192",
+      "fresh": true
+    },
+    {
+      "match_id": 5808,
+      "group_id": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+      "fresh": true
+    },
+    {
+      "match_id": 5809,
+      "group_id": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+      "fresh": true
+    },
+    {
+      "match_id": 5810,
+      "group_id": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+      "fresh": true
+    },
+    {
+      "match_id": 5811,
+      "group_id": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+      "fresh": true
+    },
+    {
+      "match_id": 5709,
+      "group_id": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+      "fresh": true
+    },
+    {
+      "match_id": 5710,
+      "group_id": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+      "fresh": true
+    },
+    {
+      "match_id": 5711,
+      "group_id": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+      "fresh": true
+    },
+    {
+      "match_id": 5712,
+      "group_id": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+      "fresh": true
+    },
+    {
+      "match_id": 5713,
+      "group_id": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+      "fresh": true
+    },
+    {
+      "match_id": 5584,
+      "group_id": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+      "fresh": true
+    },
+    {
+      "match_id": 5585,
+      "group_id": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+      "fresh": true
+    },
+    {
+      "match_id": 5586,
+      "group_id": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+      "fresh": true
+    },
+    {
+      "match_id": 5587,
+      "group_id": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+      "fresh": true
+    },
+    {
+      "match_id": 5588,
+      "group_id": "series:5ee241a9-bf05-45bd-9543-bd036e4c008a",
+      "fresh": true
+    }
+  ],
+  "scope": "Only links on the public team page; not a complete private My Battles export."
+}

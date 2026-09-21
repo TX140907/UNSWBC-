@@ -1,0 +1,38 @@
+{
+  "id": 6125,
+  "teamAId": 400,
+  "teamBId": 206,
+  "submissionAId": 455,
+  "submissionBId": 426,
+  "mapId": 2,
+  "ranked": false,
+  "status": "completed",
+  "winner": "a",
+  "seriesId": "f7c009ce-32eb-4585-8656-d204ab85c1e6",
+  "mapName": "Arena",
+  "teamAName": "All Roads Lead to Makuhari",
+  "teamBName": "Stockfish",
+  "match_id": 6125,
+  "group_id": "series:f7c009ce-32eb-4585-8656-d204ab85c1e6",
+  "source_url": "https://game.battlecode.au/visualiser?match=6125",
+  "completed_utc": "2026-09-21T09:52:05.816000+00:00",
+  "sha256": "fd29b06115642705bbda6d4319180ceb8d77e632e1bc3e24e01e242b8e927139",
+  "downloaded_utc": "2026-09-21T09:54:21.255949+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "A",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 18,
+      "longest_dragon": 3,
+      "total_length": 45
+    },
+    "B": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    }
+  }
+}

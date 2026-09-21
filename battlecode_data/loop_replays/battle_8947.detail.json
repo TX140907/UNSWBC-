@@ -1,0 +1,62 @@
+{
+  "match": {
+    "id": 8947,
+    "teamAId": 128,
+    "teamBId": 64,
+    "submissionAId": 573,
+    "submissionBId": 604,
+    "mapId": 1,
+    "ranked": true,
+    "skinA": "Jiaolong",
+    "skinB": "Vatulele Prawn",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 123,
+    "scoresB": 0,
+    "replayKey": "replays/8947.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "4b4ce066-7a77-4e20-a026-b7b48641e223",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:07:49.182Z",
+    "startedAt": "2026-09-21T12:07:49.338Z",
+    "completedAt": "2026-09-21T12:07:59.081Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:07:51.586Z",
+    "claimedBy": "95f1166baff8",
+    "log": null
+  },
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "uoa",
+  "teamAElo": 1693,
+  "teamBElo": 1668,
+  "games": [
+    {
+      "id": 8943,
+      "status": "running",
+      "winner": null
+    },
+    {
+      "id": 8944,
+      "status": "running",
+      "winner": null
+    },
+    {
+      "id": 8945,
+      "status": "running",
+      "winner": null
+    },
+    {
+      "id": 8946,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 8947,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

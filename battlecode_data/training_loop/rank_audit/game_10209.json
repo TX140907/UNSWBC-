@@ -1,0 +1,62 @@
+{
+  "match": {
+    "id": 10209,
+    "teamAId": 128,
+    "teamBId": 116,
+    "submissionAId": 667,
+    "submissionBId": 564,
+    "mapId": 7,
+    "ranked": true,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 2,
+    "replayKey": "replays/10209.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "f965cbb9-163f-4f56-82ec-6641fe38bdcd",
+    "eloChangeA": -2,
+    "eloChangeB": 2,
+    "requestedAt": "2026-09-21T13:04:05.341Z",
+    "startedAt": "2026-09-21T13:04:06.219Z",
+    "completedAt": "2026-09-21T13:04:07.082Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T13:04:06.219Z",
+    "claimedBy": "be8dee0ab16b",
+    "log": null
+  },
+  "mapName": "Queen Of Spades",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Spearhead Capital",
+  "teamAElo": 1644,
+  "teamBElo": 1707,
+  "games": [
+    {
+      "id": 10207,
+      "status": "completed",
+      "winner": "a"
+    },
+    {
+      "id": 10208,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 10209,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 10210,
+      "status": "completed",
+      "winner": "b"
+    },
+    {
+      "id": 10211,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

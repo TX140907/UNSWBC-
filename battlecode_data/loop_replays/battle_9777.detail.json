@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9777,
+    "teamAId": 128,
+    "teamBId": 417,
+    "submissionAId": 649,
+    "submissionBId": 639,
+    "mapId": 1,
+    "ranked": false,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "a",
+    "scoresA": 100,
+    "scoresB": 0,
+    "replayKey": "replays/9777.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "1a802e21-e0bd-4dce-af8d-927e8d1ba5cd",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:47:48.256Z",
+    "startedAt": "2026-09-21T12:47:49.226Z",
+    "completedAt": "2026-09-21T12:47:52.583Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:47:51.736Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Matcha Latte",
+  "teamAElo": 1664,
+  "teamBElo": 1667,
+  "games": [
+    {
+      "id": 9777,
+      "status": "completed",
+      "winner": "a"
+    }
+  ],
+  "wait": null
+}

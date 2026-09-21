@@ -1,0 +1,91 @@
+{
+  "proposals": {
+    "arena": {
+      "plan": "Arena",
+      "body": "p.continuation=0.35; p.reserve=8;",
+      "evidence": [
+        {
+          "id": 10183,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "Colosseum": {
+      "plan": "Colosseum",
+      "body": "p.continuation=0.35; p.reserve=8;",
+      "evidence": [
+        {
+          "id": 9162,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 9394,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "default_small": {
+      "plan": "DefaultSmall",
+      "body": "p.continuation=0.35; p.reserve=8;",
+      "evidence": [
+        {
+          "id": 9167,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 9398,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 10182,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 10006,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "default": {
+      "plan": "Default",
+      "body": "p.expand=true; p.cautiousChild=true; p.splitLength=6; p.target=16; p.reserve=8; p.stop=260;",
+      "evidence": [
+        {
+          "id": 9780,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 10210,
+          "reason": "teamEliminated"
+        }
+      ]
+    },
+    "trophy": {
+      "plan": "Trophy",
+      "body": "p.expand=true; p.cautiousChild=true; p.splitLength=6; p.target=16; p.reserve=8; p.stop=260;",
+      "evidence": [
+        {
+          "id": 9393,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 9776,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 10184,
+          "reason": "teamEliminated"
+        },
+        {
+          "id": 10004,
+          "reason": "teamEliminated"
+        }
+      ]
+    }
+  },
+  "method": "Map-local policy hypotheses from own losses",
+  "abstained": [
+    "Big Empty/help: ambiguous early observations",
+    "Queen variants: shared observable identity"
+  ]
+}

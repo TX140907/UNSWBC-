@@ -1,0 +1,38 @@
+{
+  "id": 5811,
+  "teamAId": 128,
+  "teamBId": 104,
+  "submissionAId": 372,
+  "submissionBId": 431,
+  "mapId": 11,
+  "ranked": false,
+  "status": "completed",
+  "winner": "b",
+  "seriesId": "8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+  "mapName": "Trophy",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Peanut Butter",
+  "match_id": 5811,
+  "group_id": "series:8cc225d6-5b02-4f5b-8c9f-698455f61ddc",
+  "source_url": "https://game.battlecode.au/visualiser?match=5811",
+  "completed_utc": "2026-09-21T09:36:13.381000+00:00",
+  "sha256": "5096e75bf4ddcc9af116be355cf25b53da22dfe9d9a1751d7f88344dc8ce0487",
+  "downloaded_utc": "2026-09-21T10:10:16.322779+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "B",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    },
+    "B": {
+      "dragon_count": 38,
+      "longest_dragon": 6,
+      "total_length": 100
+    }
+  }
+}

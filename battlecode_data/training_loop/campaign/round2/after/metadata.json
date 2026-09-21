@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-09-21T12:33:26.398921+00:00",
+  "bot": "battlecode_data\\training_loop\\campaign\\round2\\candidate\\bot.exe",
+  "opponent": "tests/kraken-map-baseline.exe",
+  "bot_files": {
+    "battlecode_data\\training_loop\\campaign\\round2\\candidate\\bot.exe": "7971ccde16100cfe8ab2974a9295607801bcf16600c69d9986add3adb89969e7"
+  },
+  "opponent_files": {
+    "tests\\kraken-map-baseline.exe": "f60804c12165bf483b1d119b399f8235ea79c404f2f74429b2c10f348f7b8834"
+  },
+  "maps": {
+    "arena.map": "a4d7e5358796c788a7392df1f6bf268af59a964d00463bc79830e4101d8bd74e"
+  },
+  "sides": [
+    "A",
+    "B"
+  ],
+  "toolkit": "unswbc 0.3.5"
+}

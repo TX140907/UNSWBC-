@@ -1,0 +1,8 @@
+{
+  "reason": "Active submission changed externally during local validation",
+  "initial_submission": 667,
+  "observed_active_submission": 573,
+  "new_online_games": 0,
+  "new_uploads": 0,
+  "awaiting": "Which submission to use as old baseline"
+}

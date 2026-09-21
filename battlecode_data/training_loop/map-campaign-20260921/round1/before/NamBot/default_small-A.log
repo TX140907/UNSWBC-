@@ -1,0 +1,34 @@
+loaded c/c++ vs python
+running round 2/500 --  last: 93ms  eta: 46.8s  dragons: 2 vs 2
+running round 51/500 --  last: 42ms  eta: 5.6s  dragons: 9 vs 2
+round 66: bot 15 (team A) died: hit a wall
+round 72: bot 11 (team A) died: hit another dragon
+round 75: bot 4 (team A) died: hit a wall
+round 77: bot 10 (team A) died: hit a wall
+round 82: bot 14 (team A) died: hit another dragon
+round 83: bot 0 (team A) died: hit a wall
+round 88: bot 24 (team A) died: hit itself
+round 89: bot 27 (team A) died: hit itself
+round 94: bot 23 (team A) died: hit itself
+running round 101/500 --  last: 32ms  eta: 9.9s  dragons: 27 vs 2
+round 101: bot 20 (team A) died: lost a head-to-head
+round 101: bot 39 (team A) died: lost a head-to-head
+round 108: bot 22 (team A) died: hit another dragon
+round 109: bot 26 (team A) died: hit another dragon
+round 117: bot 29 (team A) died: hit a wall
+round 123: bot 3 (team B) died: hit itself
+round 126: bot 7 (team A) died: hit another dragon
+round 127: bot 12 (team A) died: hit a wall
+round 128: bot 30 (team A) died: hit a wall
+round 131: bot 44 (team A) died: hit itself
+round 134: bot 34 (team A) died: hit another dragon
+round 137: bot 38 (team A) died: hit another dragon
+round 137: bot 21 (team A) died: lost a head-to-head
+round 137: bot 46 (team A) died: lost a head-to-head
+round 138: bot 5 (team A) died: lost a head-to-head
+round 138: bot 52 (team A) died: lost a head-to-head
+round 142: bot 6 (team A) died: hit itself
+round 142: bot 35 (team A) died: hit another dragon
+round 143: bot 1 (team B) died: hit another dragon
+team A wins after 144 rounds (by elimination) (5.8s)
+wrote replay: C:\Users\ACER\OneDrive\Desktop\UNSW Battlecode\UNSWBC-\battlecode_data\training_loop\map-campaign-20260921\round1\before\NamBot\default_small-A.replay

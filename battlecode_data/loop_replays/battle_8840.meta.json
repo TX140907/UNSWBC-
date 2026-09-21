@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 116,
+  "submissionAId": 573,
+  "submissionBId": 564,
+  "mapId": 9,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "eb713346-5ed1-4d2b-90c4-44bada7d92d0",
+  "mapName": "Schooltime",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Spearhead Capital",
+  "match_id": 8840,
+  "group_id": "series:eb713346-5ed1-4d2b-90c4-44bada7d92d0",
+  "sha256": "02ef435580c8cc29d49d9fb0e51ad464ac06f771b8a3f97f6a8420386014c4ce",
+  "source_url": "https://game.battlecode.au/visualiser?match=8840",
+  "validated": true
+}

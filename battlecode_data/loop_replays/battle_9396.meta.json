@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 249,
+  "submissionAId": 641,
+  "submissionBId": 640,
+  "mapId": 3,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "7037fa3e-7ddf-450a-956f-a100f7f94436",
+  "mapName": "Big Empty",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Team SKKU",
+  "match_id": 9396,
+  "group_id": "series:7037fa3e-7ddf-450a-956f-a100f7f94436",
+  "sha256": "c89872e4a25c9ab7b6c8f27de5afaaff2a17135e572e18384c3a2dac0a105d6c",
+  "source_url": "https://game.battlecode.au/visualiser?match=9396",
+  "validated": true
+}

@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 417,
+  "submissionAId": 573,
+  "submissionBId": 537,
+  "mapId": 2,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "d776ba52-d72c-4054-87c6-968f0a7386e4",
+  "mapName": "Arena",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Matcha Latte",
+  "match_id": 8241,
+  "group_id": "series:d776ba52-d72c-4054-87c6-968f0a7386e4",
+  "sha256": "c3f37bd85f934ab7d08ab55c5c42233adc043dc8940bd0f3ddb044aa537e4a9b",
+  "source_url": "https://game.battlecode.au/visualiser?match=8241",
+  "validated": true
+}

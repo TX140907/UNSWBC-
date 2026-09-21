@@ -1,0 +1,38 @@
+{
+  "id": 5711,
+  "teamAId": 400,
+  "teamBId": 128,
+  "submissionAId": 142,
+  "submissionBId": 372,
+  "mapId": 7,
+  "ranked": true,
+  "status": "completed",
+  "winner": "a",
+  "seriesId": "8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+  "mapName": "Queen Of Spades",
+  "teamAName": "All Roads Lead to Makuhari",
+  "teamBName": "An IQ too high?",
+  "match_id": 5711,
+  "group_id": "series:8166778d-c7ce-42b7-a5cb-4ad96ad09bb9",
+  "source_url": "https://game.battlecode.au/visualiser?match=5711",
+  "completed_utc": "2026-09-21T09:31:48.176000+00:00",
+  "sha256": "ebe2d3f1fb9f8e22439f478d0536c05afcaff8e490c5edfdb05e01bb6dce366c",
+  "downloaded_utc": "2026-09-21T10:10:28.593993+00:00",
+  "bot_A": "",
+  "bot_B": "",
+  "result": {
+    "terminated": true,
+    "winner": "A",
+    "end_reason": "teamEliminated",
+    "A": {
+      "dragon_count": 37,
+      "longest_dragon": 3,
+      "total_length": 83
+    },
+    "B": {
+      "dragon_count": 0,
+      "longest_dragon": 0,
+      "total_length": 0
+    }
+  }
+}

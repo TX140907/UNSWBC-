@@ -1,0 +1,18 @@
+{
+  "teamAId": 352,
+  "teamBId": 128,
+  "submissionAId": 582,
+  "submissionBId": 573,
+  "mapId": 1,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "7b1e1a1c-b31f-4328-a5f2-4ee4c6e31f9c",
+  "mapName": "Colosseum",
+  "teamAName": "HUST IT1",
+  "teamBName": "An IQ too high?",
+  "match_id": 8258,
+  "group_id": "series:7b1e1a1c-b31f-4328-a5f2-4ee4c6e31f9c",
+  "sha256": "e9b575840e107659d4eefadaec7a13b831b053dc1471f23d9071574a40bcf5f8",
+  "source_url": "https://game.battlecode.au/visualiser?match=8258",
+  "validated": true
+}

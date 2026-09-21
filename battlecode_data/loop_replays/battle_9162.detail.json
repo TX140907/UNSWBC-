@@ -1,0 +1,42 @@
+{
+  "match": {
+    "id": 9162,
+    "teamAId": 128,
+    "teamBId": 82,
+    "submissionAId": 632,
+    "submissionBId": 380,
+    "mapId": 1,
+    "ranked": false,
+    "skinA": "Loch Ness",
+    "skinB": "Jiaolong",
+    "status": "completed",
+    "winner": "b",
+    "scoresA": 0,
+    "scoresB": 126,
+    "replayKey": "replays/9162.replay",
+    "requestedBy": "eHIaDwNWgbV5YbgOIQoUGTeay4WW8aiw",
+    "seriesId": "ec86246b-1d38-4187-be62-c48694312260",
+    "eloChangeA": null,
+    "eloChangeB": null,
+    "requestedAt": "2026-09-21T12:24:42.575Z",
+    "startedAt": "2026-09-21T12:24:43.934Z",
+    "completedAt": "2026-09-21T12:24:48.166Z",
+    "attempts": 1,
+    "heartbeatAt": "2026-09-21T12:24:43.934Z",
+    "claimedBy": "56b1232751cb",
+    "log": null
+  },
+  "mapName": "Colosseum",
+  "teamAName": "An IQ too high?",
+  "teamBName": "free trip to sydney pls",
+  "teamAElo": 1676,
+  "teamBElo": 1717,
+  "games": [
+    {
+      "id": 9162,
+      "status": "completed",
+      "winner": "b"
+    }
+  ],
+  "wait": null
+}

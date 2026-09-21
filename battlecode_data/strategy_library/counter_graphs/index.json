@@ -1,0 +1,62 @@
+[
+  {
+    "map": "Colosseum",
+    "map_sha": "c49518b65561b5d85c2709f7fa5aa275c2341b3cdcf6c97c9e4a3f44f96386c0",
+    "phase": "whole-game",
+    "file": "counter_graphs/Colosseum-4e549ae8784373d5.json"
+  },
+  {
+    "map": "arena",
+    "map_sha": "a4d7e5358796c788a7392df1f6bf268af59a964d00463bc79830e4101d8bd74e",
+    "phase": "whole-game",
+    "file": "counter_graphs/arena-041322d8994b4e87.json"
+  },
+  {
+    "map": "big_empty",
+    "map_sha": "325d6f9e1e25c5aecfb518787c8ba6454a38f3dde6ae48e820aa74fc9330abd1",
+    "phase": "whole-game",
+    "file": "counter_graphs/big_empty-98499e4fa0d3bb47.json"
+  },
+  {
+    "map": "default",
+    "map_sha": "d1482429458bd7dbb80ffb862ea7fdf531b70f2ea891c95f002af9ffd1b705e0",
+    "phase": "whole-game",
+    "file": "counter_graphs/default-ea9f7ebfc201d43b.json"
+  },
+  {
+    "map": "default_small",
+    "map_sha": "b1f09be73e876dcee0f46acdd424bd770cf2ab8a9727752f658d178354382562",
+    "phase": "whole-game",
+    "file": "counter_graphs/default_small-a1030c81b7a7a017.json"
+  },
+  {
+    "map": "help",
+    "map_sha": "798654ce2ee15dce2b6b837debfab902638928c4c78395aba6227ace7cbaeb9a",
+    "phase": "whole-game",
+    "file": "counter_graphs/help-9e8551cd302574c1.json"
+  },
+  {
+    "map": "queen_of_spades",
+    "map_sha": "bf9886dc024dc3005c26e35066feb7dfe7eb03d518d8b2b467163164ca795918",
+    "phase": "whole-game",
+    "file": "counter_graphs/queen_of_spades-f4163ff62a968227.json"
+  },
+  {
+    "map": "queen_of_spades_but_she_ages",
+    "map_sha": "fb60dad47e5a991bc28669e05da4f0bf416412d37c7141afed58cf19ac853aa5",
+    "phase": "whole-game",
+    "file": "counter_graphs/queen_of_spades_but_she_ages-e535285669e6b6f3.json"
+  },
+  {
+    "map": "schooltime",
+    "map_sha": "448616c71781d2246602129bd392ddf0e57e3aae886d9c8388b234a21e4d040c",
+    "phase": "whole-game",
+    "file": "counter_graphs/schooltime-286d20fa50a8771d.json"
+  },
+  {
+    "map": "trophy",
+    "map_sha": "3dffb977ef762e7cd5970aea68b2945cad1b1737725b94d90a91d70a704cd2f9",
+    "phase": "whole-game",
+    "file": "counter_graphs/trophy-76fedf4f324f1cd5.json"
+  }
+]

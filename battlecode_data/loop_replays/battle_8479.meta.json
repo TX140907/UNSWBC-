@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 230,
+  "submissionAId": 573,
+  "submissionBId": 595,
+  "mapId": 4,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "cd2a6827-323f-432b-a441-e54682f7d68e",
+  "mapName": "Default",
+  "teamAName": "An IQ too high?",
+  "teamBName": "my cactus died so now i’m a depressed programmer",
+  "match_id": 8479,
+  "group_id": "series:cd2a6827-323f-432b-a441-e54682f7d68e",
+  "sha256": "678be4b077be861fbc6527b65af37819cbe17dea433cf63ac21306fe57e85518",
+  "source_url": "https://game.battlecode.au/visualiser?match=8479",
+  "validated": true
+}

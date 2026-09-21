@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 107,
+  "submissionAId": 641,
+  "submissionBId": 578,
+  "mapId": 7,
+  "ranked": false,
+  "status": "completed",
+  "seriesId": "e3271418-a13c-49e6-ab23-68ef98473426",
+  "mapName": "Queen Of Spades",
+  "teamAName": "An IQ too high?",
+  "teamBName": "two birds one stone",
+  "match_id": 9399,
+  "group_id": "series:e3271418-a13c-49e6-ab23-68ef98473426",
+  "sha256": "9e462704ee58dfac77780b42638f728e18ae10ee34ab8c45aecd4036c574525a",
+  "source_url": "https://game.battlecode.au/visualiser?match=9399",
+  "validated": true
+}

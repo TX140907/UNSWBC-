@@ -1,0 +1,18 @@
+{
+  "teamAId": 128,
+  "teamBId": 417,
+  "submissionAId": 573,
+  "submissionBId": 537,
+  "mapId": 9,
+  "ranked": true,
+  "status": "completed",
+  "seriesId": "d776ba52-d72c-4054-87c6-968f0a7386e4",
+  "mapName": "Schooltime",
+  "teamAName": "An IQ too high?",
+  "teamBName": "Matcha Latte",
+  "match_id": 8244,
+  "group_id": "series:d776ba52-d72c-4054-87c6-968f0a7386e4",
+  "sha256": "ffb813c1e185e23277c880f059173ef60bcf41869e8b5962ed5f20d5838b4550",
+  "source_url": "https://game.battlecode.au/visualiser?match=8244",
+  "validated": true
+}
