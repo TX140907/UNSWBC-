@@ -156,6 +156,10 @@ public:
         // Collision is checked BEFORE the tail moves, including for sprints.
         if (q < 0 || fixed[q] || contains(s.body, q)) return false;
         if (sprint && s.body.size() <= 2) return false;
+        // Sprint executes without another observation. In particular, a portal
+        // may land outside vision: stop there unless the next edge is known.
+        // Ordinary moves observe the landing tile before choosing left/right.
+        if (sprint && cells[p].edge[d] == -2) return false;
         next = s; next.body.insert(next.body.begin(), q);
         bool grows = growAt(q, s);
         if (grows) next.eaten.push_back(q);
@@ -245,16 +249,42 @@ public:
         }
         return out;
     }
+    bool crowdedTerrain() const {
+        int known = 0, walls = 0, tiles = 0, narrow = 0;
+        for (auto const& cell : cells) {
+            if (cell.seen < 0) continue;
+            int exits = 0, observed = 0;
+            for (int edge : cell.edge) {
+                if (edge == -2) continue;
+                ++known; ++observed;
+                if (edge == -1) ++walls; else ++exits;
+            }
+            if (observed == 4) { ++tiles; if (exits <= 2) ++narrow; }
+        }
+        return known >= 48 && (walls * 100 >= known * 12 ||
+            (tiles >= 12 && narrow * 5 >= tiles));
+    }
+    bool breedingExit(int head) const {
+        for (int q : graph[head])
+            if (q >= 0 && !fixed[q] && !contains(body, q) && danger[q] < 120)
+                return true;
+        return false;
+    }
     std::vector<int> choose(Controller& ct) {
         State root; root.body = body;
+        const bool confined = crowdedTerrain();
+        // Board dimensions alone miss large maps made of narrow compartments.
+        // Build a reserve there, and replenish a depleted team before endgame.
+        const bool breeding = round < 350 || (confined && round < 470 && ct.get_unit_count() < 6);
         // Crowded small boards reward early reproduction. Switch to the
         // long-body planner for the final 150 rounds, when length decides ties.
-        if (n <= 256 && round < 350 && ct.get_unit_count() < std::min(32, n / 3) && ct.can_split(2)) {
+        if ((n <= 256 || confined) && breeding && ct.get_unit_count() < std::min(32, n / 3) && ct.can_split(2) &&
+            (n <= 256 || (complete && breedingExit(body.front()) && breedingExit(body.back())))) {
             if (complete) body.resize(body.size() - 2);
             else body.clear();
             return {-1};
         }
-        if (n <= 256 && round < 350 && ct.get_length() <= 5) {
+        if ((n <= 256 || confined) && breeding && ct.get_length() <= 5) {
             double best = -1e9; int direction = -1; State chosen;
             for (int d = 0; d < 4; ++d) {
                 State next; if (!advance(root, d, next, 1)) continue;
@@ -306,7 +336,7 @@ public:
         // tail or lets a child survive when the parent has no escape.
         // Reverse the valuable rear body into a child, leaving only two
         // segments at the trapped old head. The child acts later this round.
-        if (bestDepth < 8 && complete && body.size() >= 6 &&
+        if (bestDepth < 8 && complete && body.size() >= 4 &&
             ct.can_split(ct.get_length() - 2)) {
             State child;
             child.body.assign(body.rbegin(), body.rend() - 2);
@@ -315,8 +345,12 @@ public:
             fixed[head] = fixed[neck] = 2;
             auto rescue = search(child, horizon);
             fixed[head] = savedHead; fixed[neck] = savedNeck;
-            if (rescue.depth >= std::max(8, bestDepth + 3) &&
-                danger[child.body.front()] < 80) {
+            // With no legal head move, even a short tail exit beats certain
+            // death. A newborn acts now, so assess its escape, not danger at
+            // the square it will immediately leave.
+            bool emergency = action.empty() && rescue.depth >= 1;
+            if (emergency || (rescue.depth >= std::max(8, bestDepth + 3) &&
+                danger[child.body.front()] < 80)) {
                 int childSize = ct.get_length() - 2;
                 body.resize(2);
                 return {-1, childSize};
@@ -336,6 +370,14 @@ public:
             }
         }
         if (action.empty()) {
+            // New children may not know their remote tail yet. Do not make
+            // complete body memory a prerequisite for a last-chance rescue.
+            // Keep only the trapped head/neck; the child observes its own exit.
+            if (!complete && ct.can_split(ct.get_length() - 2)) {
+                int childSize = ct.get_length() - 2;
+                body.clear(); complete = false;
+                return {-1, childSize};
+            }
             // Unknown portal is preferable to a proven collision.
             for (int d = 0; d < 4; ++d) if (graph[body.front()][d] == -2) {
                 body.clear(); complete = false; return {d};

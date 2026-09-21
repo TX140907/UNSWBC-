@@ -18,16 +18,22 @@ Hiện đang phát triển và đánh giá local. Chưa push GitHub hoặc uploa
 - Ghi nhớ địa hình, ngọc và vị trí thân của chính mình qua các lượt, kể cả phần thân ngoài tầm nhìn.
 - Con dài vừa được tách giữ lại đoạn thân đã lần ra qua từng lượt, nối thêm khi quan sát được và giới hạn mô phỏng theo chiều dài thật; không xóa toàn bộ lịch sử chỉ vì chưa nhìn thấy hết đuôi.
 - Dựng đồ thị đường đi có wrap và portal hai chiều; dùng BFS để tính khoảng cách tới ngọc thay vì chỉ dùng khoảng cách tọa độ.
+- Nhận diện địa hình chật từ tường/cạnh đã quan sát, không chỉ kích thước map: vùng có nhiều tường hoặc ô chỉ có tối đa hai lối đi cũng bật sinh sản sớm. Trên map lớn, chỉ sinh thêm khi nhớ đủ thân và cả đầu/đuôi có lối ra ít nguy hiểm. Nếu còn dưới 6 quân ở vùng chật, bổ sung quân tới trước vòng 470; nếu đủ quân, ưu tiên nuôi dài từ vòng 350.
 - Trên bản đồ tối đa 256 ô: sinh sản sớm, giới hạn số rồng; rồng nhỏ ưu tiên thu ngọc và chừa lối thoát. Từ vòng 350 chuyển sang ưu tiên chiều dài.
 - Với rồng dài và bản đồ lớn: beam search rộng 24, nhìn trước 14 bước sau nước đi đầu; mô phỏng va chạm, thân di chuyển và ngọc đã ăn. Xét cả diện tích có thể đi tới và nguy cơ đối đầu với đầu rồng khác.
 - Chấm thêm không gian và lối thoát tại cuối cây tìm kiếm, tránh chọn đường có ngọc nhưng bị kẹt ngay sau giới hạn nhìn trước. Trên bản đồ nhỏ, đầu rồng đối phương chỉ có một lối đi được đánh giá nguy hiểm hơn đầu có nhiều lối thoát.
 - Tăng tốc hai bước khi có thể giúp thoát hiểm; phân thân khẩn cấp khi đường đi sắp hết. Không coi ô đuôi hiện tại là trống.
 - Với thân dài, đánh giá khả năng tìm đường về phía đuôi. Khi đầu cũ bị nhốt, thử tách `length - 2` đốt: đầu cũ còn 2 đốt, phần thân dài đảo chiều thành con mới ở đuôi cũ. Chỉ chọn khi mô phỏng con mới có đường sống tốt hơn, còn hạn mức rồng và phía đuôi không có nguy cơ đối đầu cao.
 - Tăng chi phí rủi ro đối đầu theo chiều dài: con đang mang nhiều đốt ưu tiên bảo toàn mạng hơn việc lấy ngọc sát đầu đối phương.
-- Portal chưa biết đầu ra chỉ dùng khi không có nước đi đã biết an toàn.
+- Portal chưa biết đầu ra chỉ dùng khi không có nước đi đã biết an toàn. Không sprint tiếp qua cạnh chưa quan sát sau khi đi qua cổng; dừng để quan sát rồi chọn hướng rẽ. Địa hình đã thấy được giữ qua các lượt.
+- Khi đầu hết nước đi, cho phép cứu bằng lối thoát ngắn ở đuôi. Nếu chưa nhớ đủ thân, thử tách phần dài khi còn hạn mức thay vì mặc định đâm tường; chưa thể đảm bảo đuôi ngoài tầm nhìn có lối thoát.
 - Buffer stdout, một lần flush tại `ENDTURN`; xử lý cả EOF và `ENDGAME`.
 
 ## Kiểm tra
+
+Bản nhận diện địa hình: thắng mybot1 4/4 trên hai map Queen Of Spades, cả A/B; bản trước cũng thắng các trận này. Test chiến thuật/split và 12 test protocol đạt. Chưa kiểm chứng trước đối thủ ranked trong ảnh; chưa chạy lại toàn bộ map. Xem enchmark-results/terrain-mybot1/report.md.
+
+Bản sửa portal/cứu khẩn cấp: đạt test chiến thuật, 12 test protocol và thắng mybot1 4/4 trên ig_empty/help, cả A/B (bản trước 2/4). Chưa chạy lại đủ 20 trận. Split nhiều hơn làm trận help local chạy lâu hơn; xem enchmark-results/portal-rescue-mybot1/report.md.
 
 Có bộ chạy và báo cáo tự động: `python tests/run_tests.py --suite quick`. Xem [hướng dẫn test](../tests/README.md) và [kết quả mới nhất](../benchmark-results/LATEST.md). Trong VS Code chọn task **Battlecode: local tests**.
 
@@ -43,7 +49,7 @@ python tests/benchmark.py --output benchmark-results/my-run
 
 Các test cứu thân dài kiểm tra trường hợp tách 8 thành 2+6, đuôi không có lối thoát, đội đã đạt giới hạn rồng và tính hợp lệ của lệnh `SPLIT 6`. Mã nguồn v2 trước thay đổi này được giữ ở `tests/baselines/leviathan-v2`.
 
-**Bản hiện tại v5 thắng 40/40 trận local:** 20/20 trước NamBot và 20/20 trước mybot trên đủ 10 map, đổi cả hai phía. Kết quả nằm trong `benchmark-results/v5-protect-nambot` và `benchmark-results/v5-protect-mybot`. Mỗi thư mục có `results.json`, `metadata.json` ghi SHA-256 của executable và map, cùng log và replay. CLI không cung cấp tùy chọn seed; đây không phải một khảo sát nhiều seed ngẫu nhiên.
+**Bản v5 trước sửa cứu khẩn cấp/portal thắng 40/40 trận local:** 20/20 trước NamBot và 20/20 trước mybot trên đủ 10 map, đổi cả hai phía. Kết quả nằm trong `benchmark-results/v5-protect-nambot` và `benchmark-results/v5-protect-mybot`. Mỗi thư mục có `results.json`, `metadata.json` ghi SHA-256 của executable và map, cùng log và replay. CLI không cung cấp tùy chọn seed; đây không phải một khảo sát nhiều seed ngẫu nhiên.
 
 Bản v1 trước đợt này thắng 24/26 trận, lưu ở `benchmark-results/release-*`. Mã nguồn v1 được giữ tại `tests/baselines/leviathan-v1` để đối chiếu, không trộn kết quả các phiên bản. Có thể chọn riêng phía bằng `--sides B` và bản đồ bằng `--maps arena` khi cần tái hiện một trận.
 
