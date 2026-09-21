@@ -23,6 +23,7 @@ Hiện đang phát triển và đánh giá local. Chưa push GitHub hoặc uploa
 - Chấm thêm không gian và lối thoát tại cuối cây tìm kiếm, tránh chọn đường có ngọc nhưng bị kẹt ngay sau giới hạn nhìn trước. Trên bản đồ nhỏ, đầu rồng đối phương chỉ có một lối đi được đánh giá nguy hiểm hơn đầu có nhiều lối thoát.
 - Tăng tốc hai bước khi có thể giúp thoát hiểm; phân thân khẩn cấp khi đường đi sắp hết. Không coi ô đuôi hiện tại là trống.
 - Với thân dài, đánh giá khả năng tìm đường về phía đuôi. Khi đầu cũ bị nhốt, thử tách `length - 2` đốt: đầu cũ còn 2 đốt, phần thân dài đảo chiều thành con mới ở đuôi cũ. Chỉ chọn khi mô phỏng con mới có đường sống tốt hơn, còn hạn mức rồng và phía đuôi không có nguy cơ đối đầu cao.
+- Tăng chi phí rủi ro đối đầu theo chiều dài: con đang mang nhiều đốt ưu tiên bảo toàn mạng hơn việc lấy ngọc sát đầu đối phương.
 - Portal chưa biết đầu ra chỉ dùng khi không có nước đi đã biết an toàn.
 - Buffer stdout, một lần flush tại `ENDTURN`; xử lý cả EOF và `ENDGAME`.
 
@@ -42,11 +43,11 @@ python tests/benchmark.py --output benchmark-results/my-run
 
 Các test cứu thân dài kiểm tra trường hợp tách 8 thành 2+6, đuôi không có lối thoát, đội đã đạt giới hạn rồng và tính hợp lệ của lệnh `SPLIT 6`. Mã nguồn v2 trước thay đổi này được giữ ở `tests/baselines/leviathan-v2`.
 
-Kết quả phiên bản local mới nằm trong `benchmark-results/local-v2-nambot`, `local-v2-mybot` và `local-v2-vs-v1`. Mỗi thư mục có `results.json`, `metadata.json` ghi SHA-256 của executable và map, cùng log và replay. Benchmark đổi cả hai phía. CLI không cung cấp tùy chọn seed; đây không phải một khảo sát nhiều seed ngẫu nhiên.
+**Bản hiện tại v5 thắng 40/40 trận local:** 20/20 trước NamBot và 20/20 trước mybot trên đủ 10 map, đổi cả hai phía. Kết quả nằm trong `benchmark-results/v5-protect-nambot` và `benchmark-results/v5-protect-mybot`. Mỗi thư mục có `results.json`, `metadata.json` ghi SHA-256 của executable và map, cùng log và replay. CLI không cung cấp tùy chọn seed; đây không phải một khảo sát nhiều seed ngẫu nhiên.
 
 Bản v1 trước đợt này thắng 24/26 trận, lưu ở `benchmark-results/release-*`. Mã nguồn v1 được giữ tại `tests/baselines/leviathan-v1` để đối chiếu, không trộn kết quả các phiên bản. Có thể chọn riêng phía bằng `--sides B` và bản đồ bằng `--maps arena` khi cần tái hiện một trận.
 
-Bản local v2 thắng **25/26** trước NamBot (19/20) và mybot (6/6). Đấu trực tiếp v1 trên ba map, đổi phía: 3 thắng/3 thua. V2 vẫn thua NamBot trên `help` phía B; xem `benchmark-results/README.md` để đối chiếu các hồi quy. Đây là ứng viên để test tiếp, không phải kết luận mạnh hơn toàn diện.
+Lịch sử: v2 thắng 25/26 ở bộ ban đầu, sau đó đạt 37/40 khi mở rộng đủ map trước cả hai đối thủ. V4 đạt 39/40. V5 đã sửa các cấu hình thua trong bộ này; xem `benchmark-results/README.md` để đối chiếu, không cộng lẫn kết quả các phiên bản.
 
 Giới hạn: mô hình tìm kiếm giữ nguyên thân đối phương trong tương lai nên có thể đánh giá thận trọng quá mức khi đông quân; thông tin ngoài tầm nhìn có thể lỗi thời. Đấu native chưa đo ngân sách WASM 100 triệu CPU points của máy chấm: toolkit 0.3.5 chỉ hỗ trợ `--sandbox` cho Python. Kết quả trước hai bot cục bộ không chứng minh thứ hạng trên ladder.
 
