@@ -8,6 +8,44 @@
 
 namespace global_strategy {
 
+// A head collision kills both dragons, irrespective of length. Count only
+// currently visible segments: this is a lower bound, not an enemy length oracle.
+template<class Bot, class Controller>
+std::vector<int> headTradeAction(Bot& bot, Controller& ct) {
+    if (bot.round < 40 || ct.get_unit_count() <= 1 || ct.get_length() > 8 ||
+        !bot.complete || bot.body.size() != static_cast<std::size_t>(ct.get_length())) return {};
+    int bestLength = 0;
+    std::vector<int> best;
+    using State = typename Bot::SearchState;
+    State root; root.body = bot.body;
+    for (const auto& tile : ct.get_tiles()) {
+        const auto* head = tile.get_dragon();
+        if (!head || !head->is_head() || head->get_team() == ct.get_team()) continue;
+        int length = 0;
+        for (const auto& other : ct.get_tiles()) {
+            const auto* part = other.get_dragon();
+            if (part && part->get_team() == head->get_team() && part->get_id() == head->get_id()) ++length;
+        }
+        if (length < std::max(6, ct.get_length() + 2) || length <= bestLength) continue;
+        const int target = bot.index(tile.get_position());
+        std::vector<int> attack;
+        for (int d = 0; d < 4; ++d) {
+            const int start = root.body.front();
+            if (bot.cells[start].edge[d] == -2) continue;
+            if (bot.graph[start][d] == target) { attack = {d}; break; }
+            if (ct.get_length() <= 2) continue;
+            State first;
+            if (!bot.advance(root, d, first, 1) || first.body.size() <= 2) continue;
+            for (int e = 0; e < 4; ++e)
+                if (bot.cells[first.body.front()].edge[e] != -2 &&
+                    bot.graph[first.body.front()][e] == target) attack = {d, e};
+        }
+        if (!attack.empty()) { bestLength = length; best = attack; }
+    }
+    // No survivor memory to update: these actions deliberately end at a head.
+    return best;
+}
+
 struct Policy {
     bool expand=false, workers=false, cautiousChild=false;
     int target=32, splitLength=4, stop=350, reserve=6, reserveStop=470;
@@ -130,6 +168,13 @@ void planOuterPearls(Bot& bot, Controller const& ct) {
 
 template<class Bot, class Controller>
 void planTerritory(Bot& bot, Controller const& ct) {
+        if (bot.mapStatus.active && !bot.mapStatus.middle.map) {
+            bot.outerPearls.assign(bot.n, 0);
+            bot.territory.assign(bot.n, 0);
+            bot.territoryWeight = 0;
+            bot.forageCluster = -1;
+            return;
+        }
         bot.planOuterPearls(ct);
         const auto patrol = bot.patrolPolicy();
         const bool mobilePatrol = bot.identifiedMap() ? bot.tuning().patrol_enabled : (bot.w == 16 && bot.h == 16) ||
@@ -223,6 +268,11 @@ void planTerritory(Bot& bot, Controller const& ct) {
 
 template<class Bot>
 Policy policy(const Bot& bot, bool confined) {
+        if (bot.mapStatus.active && !bot.mapStatus.middle.map) {
+            Policy generic;
+            generic.expand = generic.workers = bot.n <= 256 || confined;
+            return generic;
+        }
         Policy p; p.expand=p.workers=(bot.n<=256 || confined);
         switch (bot.mapPlan()) {
         case MapPlan::Arena: p.continuation=0.20; break;
@@ -265,7 +315,7 @@ Policy policy(const Bot& bot, bool confined) {
 }
 
 template<class Bot, class Controller>
-std::vector<int> middleGameAction(Bot& bot, Controller& ct) {
+std::vector<int> workerAction(Bot& bot, Controller& ct) {
     using State = typename Bot::SearchState;
         State root; root.body = bot.body;
         const bool confined = bot.crowdedTerrain();
@@ -319,6 +369,85 @@ std::vector<int> middleGameAction(Bot& bot, Controller& ct) {
         }
 
     return {};
+}
+
+// Named entry points retain shared mechanics and per-map/side tuning.
+// Add map-specific decisions here without duplicating the safety planner.
+template<class Bot, class Controller>
+std::vector<int> genericMiddleGame(Bot& bot, Controller& ct) {
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> arenaMiddleGame(Bot& bot, Controller& ct) {
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> big_emptyMiddleGame(Bot& bot, Controller& ct) {
+    auto rescue = trappedHeadRescue(bot, ct);
+    if (!rescue.empty()) return rescue;
+    auto trade = headTradeAction(bot, ct);
+    if (!trade.empty()) return trade;
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> colosseumMiddleGame(Bot& bot, Controller& ct) {
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> defaultMiddleGame(Bot& bot, Controller& ct) {
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> default_smallMiddleGame(Bot& bot, Controller& ct) {
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> helpMiddleGame(Bot& bot, Controller& ct) {
+    return big_emptyMiddleGame(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> queen_of_spadesMiddleGame(Bot& bot, Controller& ct) {
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> queen_of_spades_but_she_agesMiddleGame(Bot& bot, Controller& ct) {
+    return queen_of_spadesMiddleGame(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> schooltimeMiddleGame(Bot& bot, Controller& ct) {
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> trophyMiddleGame(Bot& bot, Controller& ct) {
+    return workerAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> middleGameAction(Bot& bot, Controller& ct) {
+    const int map = bot.mapStatus.active ? bot.mapStatus.middle.map : bot.identifiedMap();
+    switch (map) {
+    case 1: return arenaMiddleGame(bot, ct);
+    case 2: return big_emptyMiddleGame(bot, ct);
+    case 3: return colosseumMiddleGame(bot, ct);
+    case 4: return defaultMiddleGame(bot, ct);
+    case 5: return default_smallMiddleGame(bot, ct);
+    case 6: return helpMiddleGame(bot, ct);
+    case 7: return queen_of_spadesMiddleGame(bot, ct);
+    case 8: return queen_of_spades_but_she_agesMiddleGame(bot, ct);
+    case 9: return schooltimeMiddleGame(bot, ct);
+    case 10: return trophyMiddleGame(bot, ct);
+    default: return genericMiddleGame(bot, ct);
+    }
 }
 
 } // namespace global_strategy

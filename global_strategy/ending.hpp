@@ -20,7 +20,8 @@ std::vector<int> longBodyAction(Bot& bot, Controller& ct) {
         double best = -1e12; std::vector<int> action;
         State selected;
         int bestDepth = -1;
-        const int horizon = bot.tuning().search_horizon + (bot.mapPlan()==MapPlan::Schooltime ? 4 : 0);
+        const auto map = bot.mapStatus.active ? bot.mapStatus.ending.plan : bot.mapPlan();
+        const int horizon = bot.tuning().search_horizon + (map==MapPlan::Schooltime ? 4 : 0);
         for (int d = 0; d < 4; ++d) {
             State first;
             if (!bot.advance(root, d, first, 1)) continue;
@@ -103,6 +104,93 @@ std::vector<int> longBodyAction(Bot& bot, Controller& ct) {
         bot.body = selected.body;
         return action;
     
+}
+
+// Emergency rescue must run before opening expansion and worker decisions.
+template<class Bot, class Controller>
+std::vector<int> trappedHeadRescue(Bot& bot, Controller& ct) {
+    if (bot.body.empty() || !ct.can_split(ct.get_length() - 2)) return {};
+    typename Bot::SearchState root; root.body = bot.body;
+    for (int d = 0; d < 4; ++d) {
+        typename Bot::SearchState next;
+        if (bot.advance(root, d, next, 1)) return {};
+    }
+    return longBodyAction(bot, ct);
+}
+
+// Named entry points retain shared mechanics and per-map/side tuning.
+// Add map-specific decisions here without duplicating the safety planner.
+template<class Bot, class Controller>
+std::vector<int> genericEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> arenaEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> big_emptyEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> colosseumEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> defaultEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> default_smallEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> helpEndgame(Bot& bot, Controller& ct) {
+    return big_emptyEndgame(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> queen_of_spadesEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> queen_of_spades_but_she_agesEndgame(Bot& bot, Controller& ct) {
+    return queen_of_spadesEndgame(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> schooltimeEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> trophyEndgame(Bot& bot, Controller& ct) {
+    return longBodyAction(bot, ct);
+}
+
+template<class Bot, class Controller>
+std::vector<int> endgameAction(Bot& bot, Controller& ct) {
+    const int map = bot.mapStatus.active ? bot.mapStatus.ending.map : bot.identifiedMap();
+    switch (map) {
+    case 1: return arenaEndgame(bot, ct);
+    case 2: return big_emptyEndgame(bot, ct);
+    case 3: return colosseumEndgame(bot, ct);
+    case 4: return defaultEndgame(bot, ct);
+    case 5: return default_smallEndgame(bot, ct);
+    case 6: return helpEndgame(bot, ct);
+    case 7: return queen_of_spadesEndgame(bot, ct);
+    case 8: return queen_of_spades_but_she_agesEndgame(bot, ct);
+    case 9: return schooltimeEndgame(bot, ct);
+    case 10: return trophyEndgame(bot, ct);
+    default: return genericEndgame(bot, ct);
+    }
 }
 
 } // namespace global_strategy

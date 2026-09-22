@@ -3,13 +3,34 @@
 #include <cmath>
 #include <deque>
 #include <vector>
+#include "map_recognition.hpp"
+#include "ending.hpp"
+#include "middle_game.hpp"
 
 namespace global_strategy {
+
+// Prefer a nearby distinguishing edge only while the map is ambiguous.
+// Movement still passes the adapter's collision and short-horizon checks.
+template<class Bot>
+bool scoutUnknownMap(Bot& bot, std::vector<int>& action) {
+    if (!bot.mapStatus.active || bot.mapStatus.opening.map || !bot.mapStatus.candidates ||
+        bot.body.empty() || bot.round >= 24 || bot.actualLength >= 8) return false;
+    int target=-1, distance=bot.n+1;
+    for (const auto& s : signatures) {
+        if (s.w!=bot.w || s.h!=bot.h) continue;
+        int p=s.y*bot.w+s.x;
+        if (bot.cells[p].edge[s.d]!=-2) continue;
+        int d=bot.wrappedDistance(bot.body.front(),p);
+        if (d<distance) { distance=d; target=p; }
+    }
+    return target>=0 && bot.moveOpeningToward(target,action);
+}
 
 template<class Bot, class Controller>
 bool trophyOpening(Bot& bot, Controller&, std::vector<int>& action) {
     using State = typename Bot::SearchState;
-        if (bot.identifiedMap() != 10 || bot.trophyOpeningFinished || bot.body.empty()) return false;
+        const int map = bot.mapStatus.active ? bot.mapStatus.opening.map : bot.identifiedMap();
+        if (map != 10 || bot.trophyOpeningFinished || bot.body.empty()) return false;
         const bool upper = (bot.team == 'A' && bot.myid == 0) || (bot.team == 'B' && bot.myid == 1);
         const bool lower = (bot.team == 'A' && bot.myid == 2) || (bot.team == 'B' && bot.myid == 3);
         if (!upper && !lower) return false;
@@ -83,9 +104,10 @@ int wrappedDistance(const Bot& bot, int p, int q) {
 }
 
 template<class Bot, class Controller>
-bool smallOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+bool default_smallOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
     using State = typename Bot::SearchState;
-        if (bot.identifiedMap() != 5 || bot.body.empty()) return false;
+        const int map = bot.mapStatus.active ? bot.mapStatus.opening.map : bot.identifiedMap();
+        if (map != 5 || bot.body.empty()) return false;
         const int head = bot.body.front();
         const bool initial = (bot.team == 'A' && (bot.myid == 0 || bot.myid == 2)) ||
             (bot.team == 'B' && (bot.myid == 1 || bot.myid == 3));
@@ -134,6 +156,119 @@ bool smallOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
         }
         return target >= 0 && bot.moveOpeningToward(target, action);
     
+}
+
+// Unknown maps explore for evidence; false hands control to middle-game.
+template<class Bot, class Controller>
+bool genericOpening(Bot& bot, Controller&, std::vector<int>& action) {
+    return scoutUnknownMap(bot, action);
+}
+
+// Maps without a dedicated opening use the normal economy planner.
+template<class Bot, class Controller>
+bool arenaOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    return genericOpening(bot, ct, action);
+}
+
+template<class Bot, class Controller>
+bool big_emptyOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    constexpr int populationTarget = 64;
+    if (bot.w == 64 && bot.h == 64) {
+        auto rescue = trappedHeadRescue(bot, ct);
+        if (!rescue.empty()) { action = rescue; return true; }
+        auto trade = headTradeAction(bot, ct);
+        if (!trade.empty()) { action = trade; return true; }
+    }
+    if (bot.w == 64 && bot.h == 64 && ct.get_unit_count() < populationTarget && ct.can_split(2)) {
+        // Two-segment children maximize population without waiting for longer bodies.
+        if (bot.complete && bot.body.size() == static_cast<std::size_t>(ct.get_length()))
+            bot.body.resize(bot.body.size() - 2);
+        else {
+            bot.body.clear();
+            bot.complete = false;
+        }
+        action = {-1};
+        return true;
+    }
+    if (bot.w == 64 && bot.h == 64 && ct.get_unit_count() < std::min(populationTarget, ct.unit_limit) &&
+        bot.complete && ct.get_length() > 2 && bot.body.size() == static_cast<std::size_t>(ct.get_length())) {
+        using State = typename Bot::SearchState;
+        State root, selected; root.body = bot.body;
+        double best = -1e12;
+        std::vector<int> moves;
+        for (int d=0;d<4;++d) {
+            State first;
+            if (bot.cells[root.body.front()].edge[d] == -2 || !bot.advance(root,d,first,1)) continue;
+            for (int e=0;e<4;++e) {
+                State second;
+                if (!bot.advance(first,e,second,1,true)) continue;
+                // Pay the sprint cost with food; do not delay an available next-turn split.
+                if (second.body.size()<root.body.size() ||
+                    (first.body.size()>=4 && second.body.size()<4)) continue;
+                int head=second.body.front();
+                if (bot.danger[head]>=80 || bot.search(second,4).depth<4) continue;
+                double score=second.reward+bot.danger[first.body.front()]+
+                    150.0/(bot.foodDist[head]+1)+4*std::min(bot.area(second),12);
+                if (score>best) { best=score; selected=second; moves={d,e}; }
+            }
+        }
+        if (!moves.empty()) { bot.body=selected.body; action=moves; return true; }
+    }
+    return genericOpening(bot, ct, action);
+}
+
+template<class Bot, class Controller>
+bool colosseumOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    return genericOpening(bot, ct, action);
+}
+
+template<class Bot, class Controller>
+bool defaultOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    return genericOpening(bot, ct, action);
+}
+
+template<class Bot, class Controller>
+bool helpOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    return big_emptyOpening(bot, ct, action);
+}
+
+template<class Bot, class Controller>
+bool queen_of_spadesOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    return genericOpening(bot, ct, action);
+}
+
+template<class Bot, class Controller>
+bool queen_of_spades_but_she_agesOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    return queen_of_spadesOpening(bot, ct, action);
+}
+
+template<class Bot, class Controller>
+bool schooltimeOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    return genericOpening(bot, ct, action);
+}
+
+// Compatibility entry point for existing adapters/tests.
+template<class Bot, class Controller>
+bool smallOpening(Bot& bot, Controller& ct, std::vector<int>& action) {
+    return default_smallOpening(bot, ct, action);
+}
+
+template<class Bot, class Controller>
+bool openingAction(Bot& bot, Controller& ct, std::vector<int>& action) {
+    const int map = bot.mapStatus.active ? bot.mapStatus.opening.map : bot.identifiedMap();
+    switch (map) {
+    case 1: return arenaOpening(bot, ct, action);
+    case 2: return big_emptyOpening(bot, ct, action);
+    case 3: return colosseumOpening(bot, ct, action);
+    case 4: return defaultOpening(bot, ct, action);
+    case 5: return default_smallOpening(bot, ct, action);
+    case 6: return helpOpening(bot, ct, action);
+    case 7: return queen_of_spadesOpening(bot, ct, action);
+    case 8: return queen_of_spades_but_she_agesOpening(bot, ct, action);
+    case 9: return schooltimeOpening(bot, ct, action);
+    case 10: return trophyOpening(bot, ct, action);
+    default: return genericOpening(bot, ct, action);
+    }
 }
 
 } // namespace global_strategy
